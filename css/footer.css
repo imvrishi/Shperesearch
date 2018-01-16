@@ -1,0 +1,39 @@
+.main_foot_div{
+	padding: 90px 5% 70px 5%;
+	background-image: url('../img/footer-team.jpg');
+	background-position: center top;
+}
+.newleter_para{
+	color:white;
+	font-family: Droid serif;
+}
+.footer_heading{
+	color:white;
+}
+.form_lbl{
+	color:white;
+}
+.form_inpt_box{
+	width:100%;height: 40px;
+}
+.form_btn_div{
+	margin-top:2%;
+}
+.btnsub{
+	border-color: #0ab6d1;
+	background-color: #0ab6d1;
+}
+.footer_para{
+	color:white;float:left;
+}
+.simple_line{
+	border-bottom:1px solid grey;
+}
+.footer_post {
+	list-style: none;
+	padding: 0;
+}
+.icons a{
+	border: 1px solid white;  
+	padding: 2px 5px 2px 5px;
+}

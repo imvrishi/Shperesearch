@@ -1,0 +1,16 @@
+h1.service-welcome-text { font-weight: 700; font-size: 3.8em; padding: 5px 3px; line-height: 1em; color: #0ab6d1; }
+h5.service-welcome-text { font-weight:400; font-size: 1.25em; line-height: 1.4em; color: #fff; padding: 0 40px; font-family: "Segoe UI" }
+.services-list { padding: 90px 5% 70px 5%; display: flex; flex-wrap: wrap; }
+.single-service { padding: 5px; width: 33.3333%; }
+.single-service i { color: #0ab6d1; float: left; font-size: 2em; }
+.single-service-text { margin-left: 50px; margin-top: 5px; font-family: "Segoe UI"; }
+.single-service-title { font-size: 1.2em; }
+.single-service-desc { font-size: 0.9em; line-height: 1.7em; }
+
+@media screen and (max-width: 1024px) {
+	.single-service { width: 50%; }
+}
+
+@media screen and (max-width: 560px) {
+	.single-service { width: 100%; }
+}
