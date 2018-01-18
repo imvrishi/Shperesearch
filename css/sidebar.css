@@ -3,8 +3,8 @@
 .social-icons { bottom: 0px; position: absolute; padding: 0px 40px 20px 40px; font-size: 0.85em; width: 100%; left: 0px; }
 .social-icons a { font-size: 18px; margin-left: 5px; }
 
-.sidenav a { padding: 0 6px; display: block; transition: all 0.3s; line-height: 44px; font-weight: 600; font-size: 20px; }
-.sidenav a:hover, .sidenav a:active { color: #0ab6d1; }
+.sidenav a, .sidenav div { padding: 0 6px; display: block; transition: all 0.3s; line-height: 44px; font-weight: 600; font-size: 20px; text-decoration: none; color: #FFFFFF; cursor: pointer; }
+.sidenav a:hover, .sidenav a:active, .sidenav div:hover, .sidenav div:active { color: #0ab6d1; }
 .sidenav div[data-parent="services"] { display: none; padding-bottom: 10px; }
 .sidenav div[data-parent="services"] a { font-size: 16px; line-height: 30px; }
 
@@ -20,4 +20,5 @@
 	#sidebar { display: none; }
 	#header-nav { display: block !important; }
 	.page-wrapper { padding: 60px 0 10px; }
+	.lds-hourglass { width: 100%; }
 }

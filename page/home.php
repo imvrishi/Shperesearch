@@ -1,7 +1,7 @@
 <div class="home-banner">
 	<div class="home-banner-video">
-		<video class="home-video" autoplay="autoplay" preload="none" muted loop poster="https://boygeniusreport.files.wordpress.com/2015/01/planet-earth.jpg?quality=98&strip=all">
-			<source src="videos/global.mp4" type="video/mp4">
+		<video class="home-video" autoplay="autoplay" preload="none" muted loop1 poster1="https://boygeniusreport.files.wordpress.com/2015/01/planet-earth.jpg?quality=98&strip=all">
+			<source src="videos/Homepage_Video_001.mp4" type="video/mp4">
 			<!-- <source src="videos/global.mp4" type="video/webm"> -->
 		</video>
 	</div>

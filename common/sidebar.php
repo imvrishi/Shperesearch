@@ -3,10 +3,11 @@
 		<div class="sidenav">
 			<a href="#" class="sidebar-logo-a"><img class="sidebar-logo" src="img/logo-vrv.png" /></a>
 			<a href="home">HOME</a>
-			<a href="#" id="services">SERVICES</a>
-			<div data-parent="services">
-				<a href="qualitative">Qualitative</a>
-				<a href="quantitative">Quantitative</a>
+			<div href="#" id="services">SERVICES
+				<div data-parent="services">
+					<a href="qualitative">Qualitative</a>
+					<a href="quantitative">Quantitative</a>
+				</div>
 			</div>
 			<a href="industries">INDUSTRIES</a>
 			<a href="free-tree">FREE TREE</a>
