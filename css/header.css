@@ -6,7 +6,7 @@
 body { font-family: "Cabin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; }
 
 /* Same as the width of the sidenav */
-#body-container { margin-left: 260px; max-width: 100%; height: auto; }
+#body-container { max-width: 100%; height: auto; }
 .font-segoe { font-family: "Segoe UI"; }
 
 a { text-decoration: none; color: #FFFFFF; }
@@ -727,7 +727,6 @@ a:hover { text-decoration: none; }
 .service-top-banner { background-image: url(../img/services-top.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; padding: 20vh 5% 70px 5%; text-align: center; min-height: 100vh; }
 
 @media screen and (max-width: 869px) {
-	#body-container { margin-left: 0; }
 	#body-container .home-banner, #body-container .header-banner { height: calc( 100vh - 60px ); }
 	.home-banner .home-banner-text { top: 5%; }
 	.service-top-banner {  padding: 60px 30px; }
@@ -765,10 +764,10 @@ a:hover { text-decoration: none; }
 }
 
 .lds-hourglass {
-    width: calc( 100% - 260px );
+    width: 100%;
     height: 100%;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     background-color: white;
 }
 
@@ -788,7 +787,9 @@ a:hover { text-decoration: none; }
     background: none;
     border-radius: 50%;
     border: 70px solid;
-    border-color: #0ab6d1 transparent #0ab6d1 transparent;
+    border-color: #888 transparent #888 transparent;
     animation: lds-hourglass 2s linear infinite;
     -webkit-animation: lds-hourglass 2s linear infinite;
 }
+
+.slick-dots { height: 0; }

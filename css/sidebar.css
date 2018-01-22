@@ -1,18 +1,21 @@
-#sidebar { height: 100%; width: 260px; position: fixed; z-index: 1; top: 0; left: 0; background-color: #111; overflow-x: hidden; padding: 40px 20px; text-align: center; vertical-align: baseline; display: block; }
-/* .sidenav { height: 100%; width: 20%; position: fixed; z-index: 1; top: 0; left: 0; background-color: #111; overflow-x: hidden; padding: 40px 20px; text-align: center; vertical-align: baseline; } */
-.social-icons { bottom: 0px; position: absolute; padding: 0px 40px 20px 40px; font-size: 0.85em; width: 100%; left: 0px; }
-.social-icons a { font-size: 18px; margin-left: 5px; }
+#sidebar {height: 100px;background-color: #111;padding: 0 100px;}
 
-.sidenav a, .sidenav div { padding: 0 6px; display: block; transition: all 0.3s; line-height: 44px; font-weight: 600; font-size: 20px; text-decoration: none; color: #FFFFFF; cursor: pointer; }
-.sidenav a:hover, .sidenav a:active, .sidenav div:hover, .sidenav div:active { color: #0ab6d1; }
-.sidenav div[data-parent="services"] { display: none; padding-bottom: 10px; }
-.sidenav div[data-parent="services"] a { font-size: 16px; line-height: 30px; }
+ul {padding: 0;margin: 0;height: 100%;position: relative;}
+.sidenav {float: right;}
+.sidenav > li {float: left;}
+.sidenav li {transition: all 0.3s;width: 70px;height: 100%;list-style: none;}
+.sidenav li:hover, .sidenav li:active { color: #0ab6d1; }
+.sidenav ul {padding-bottom: 10px;visibility: hidden;opacity: 0;transition: visibility 0s, opacity 0.5s linear;}
+.sidenav ul li {padding-top: 10px;height: 60px;}
+.sidenav li:hover ul {top: 100%;z-index: 2;visibility: visible;opacity: 1;}
+.sidenav li:hover ul img {display: block;position: relative;z-index: 2;}
 
-.sidenav .sidebar-logo-a { padding: 0; margin-bottom: 40px; }
-.sidebar-logo { width: 100%; height: auto; display: block; }
+.sidenav .sidebar-logo-a {padding: 0;}
+.sidebar-logo {width: auto;height: auto;max-width: 200px;max-height: 100px;}
+.sidenav img {width: 50px;display: block;position: absolute;top: 50%;transform: translateY(-50%);}
+.sidenav img:hover {filter: contrast(50%);}
 
 @media screen and (max-height: 450px) {
-	.sidenav { padding: 40px 15px; }
 	.sidenav a { font-size: 18px; }
 }
 

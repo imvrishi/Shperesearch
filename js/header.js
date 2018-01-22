@@ -58,7 +58,7 @@ function loadHome() {
 
 function readySlick() {
 	
-	$('.why-choose-us-slider').slick({
+	$('.why-choose-us-slider').not('.slick-initialized').slick({
 		lazyLoad: 'ondemand',
 		arrows: false,
 		dots: true,
@@ -83,14 +83,14 @@ function readySlick() {
 
 function readySidebar() {
 	
-	$services = $('div[data-parent="services"]');
+	/*$services = $('div[data-parent="services"]');
 	$('[id="services"]').on( 'click', function( e ) {
 		$services.slideToggle();
 	} ).on('mouseenter', function(event) {
 		$services.slideDown();
 	} ).on('mouseleave', function(event) {
 		$services.slideUp();
-	} );
+	} );*/
 	
 	// ================================ //
     // Slideout Right Menu              //
@@ -193,6 +193,7 @@ function load() {
 	
 }
 
+let video;
 function callAjax( directory, href, type ) {
 	
 	if( previousType == 'click' && type == 'statechange' ) {
@@ -207,11 +208,11 @@ function callAjax( directory, href, type ) {
 		beforeSend: function() {
 			scrollTo('body');
 			slideoutRight.close();
-			// $('.lds-hourglass').show();
-			$('#body-container').html('<div class="lds-hourglass"></div>');
+			$('.lds-hourglass').show();
+			// $('#body-container').html('<div class="lds-hourglass"></div>');
 		},
 		success: function(data) {
-			$('#body-container').append(data); // place our ajaxed content into our content area
+			$('#body-container').html(data); // place our ajaxed content into our content area
 			if( type == 'click' ) {
 				History.pushState(null, href, 'index.php?route=' + href); // change the url and add our ajax request to our history
 			}
@@ -220,22 +221,27 @@ function callAjax( directory, href, type ) {
 			readyPortChecker();
 			loadHome();
 			if ( href == 'home' ) {
-				let video = document.querySelector('.home-video');
+				video = document.querySelector('.home-video');
 				let b = setInterval(() => {
 					if( video.readyState === 4 ) {
-						$('.lds-hourglass').remove();
+						$('.lds-hourglass').hide();
 						clearInterval(b);
-						video.addEventListener('ended', function() {
-							video.getElementsByTagName('source')[0].src = 'videos/Homepage_Video_002.mp4';
-							video.play();
-						}, false);
+						video.addEventListener('ended', playVideo, false);
 					}
 				}, 500);
 			} else {
-				$('.lds-hourglass').remove();
+				$('.lds-hourglass').hide();
 			}
 		}
 	});
+}
+
+function playVideo() {
+	video.getElementsByTagName('source')[0].src = 'videos/Homepage_Video_002.mp4';
+	video.load();
+	video.play();
+	video.setAttribute('loop', true);
+	video.removeEventListener('ended', playVideo);
 }
 
 function ajaxifyApp() {

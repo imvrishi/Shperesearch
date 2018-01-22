@@ -36,4 +36,4 @@
 	</div>
 </div>
 
-<?php include( '../common/newsletter.php' ); ?>
+<?php // include( '../common/newsletter.php' ); ?>

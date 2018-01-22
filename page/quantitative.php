@@ -51,4 +51,4 @@
 </div>
 
 <?php include( '../common/whychooseus.php' ); ?>
-<?php include( '../common/newsletter.php' ); ?>
+<?php // include( '../common/newsletter.php' ); ?>

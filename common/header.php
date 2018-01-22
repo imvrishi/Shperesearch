@@ -38,24 +38,19 @@
 		</header>
 		
 		<nav id="right-menu">
-			<div class="sidenav">
-				<a href="#" class="sidebar-logo-a"><img class="sidebar-logo" src="img/logo-vrv.png" /></a>
-				<a href="home">HOME</a>
-				<a href="#" id="services">SERVICES</a>
-				<div data-parent="services">
-					<a href="qualitative">Qualitative</a>
-					<a href="quantitative">Quantitative</a>
-				</div>
-				<a href="industries">INDUSTRIES</a>
-				<a href="free-tree">FREE TREE</a>
-				<a href="contact-us">CONTACT US</a>
-			</div>
-			<div class="social-icons">
-				<a href="#"><i class="fa fa-linkedin"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-google-plus"></i></a>
-				<a href="#"><i class="fa fa-instagram"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
-			</div>
+			<ul class="sidenav">
+				<li><a href="#" class="sidebar-logo-a"><img class="sidebar-logo" src="img/Logo.JPG" /></a></li>
+				<li><a href="home">HOME</a></li>
+				<li>
+					<a href="#" id="services">SERVICES</a>
+					<ul data-parent="services">
+						<li><a href="qualitative">Qualitative</a></li>
+						<li><a href="quantitative">Quantitative</a></li>
+					</ul>
+				</li>
+				<li><a href="industries">INDUSTRIES</a></li>
+				<li><a href="free-tree">FREE TREE</a></li>
+				<li><a href="contact-us">CONTACT US</a></li>
+			</ul>
 		</nav>
 		

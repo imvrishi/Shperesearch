@@ -1,4 +1,35 @@
 			</section><!-- /#body-container -->
+			<div class="footer">
+				<div class="footer-items">
+					<div class="item">
+						<div class="img">
+							<img src="https://spheresearch.com/images/footericon01.png?crc=147744704">
+						</div>
+						<div class="text">
+							<div class="title">Visit Us</div>
+							<div class="content">www.spheresearch.com</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="img">
+							<img src="https://spheresearch.com/images/footericon02.png?crc=4157289281">
+						</div>
+						<div class="text">
+							<div class="title">Email Us</div>
+							<div class="content">hello@spheresearch.com</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="img">
+							<img src="https://spheresearch.com/images/footericon03.png?crc=188072960">
+						</div>
+						<div class="text">
+							<div class="title">Skype Us</div>
+							<div class="content">hello@spheresearch.com</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section><!-- /#panel -->
 		<footer>
 			<!-- Plugins -->

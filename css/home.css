@@ -1,7 +1,7 @@
-.home-banner { overflow: hidden; position: relative; height: 100vh; }
+.home-banner { overflow: hidden; position: relative; height: calc( 100vh - 100px ); }
 .home-banner video { }
 .home-banner-text { position: absolute; top: 25%; left: 0; text-align: center; width: 100%; }
-.home-banner-text img { max-width: 350px; width: 100%; }
+.home-banner-text img {max-width: 350px;max-height: 200px;width: auto;}
 
 .welcome-text { color: #fff; }
 h2.welcome-text { font-weight: 600; }
