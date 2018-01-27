@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"getEle",
+				"getElementsByTagName"
+			],
+			[
+				"sli",
+				"slideUp\t.slideUp()"
+			],
+			[
+				"boun",
+				"bounceInSmall\t(header.css)"
+			],
+			[
+				"remove",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"scr",
+				"scrollTop\t.scrollTop()"
+			],
+			[
 				"bil",
 				"bill_no"
 			],
@@ -284,10 +308,6 @@
 				"selected"
 			],
 			[
-				"remove",
-				"removeprop\t.removeProp()"
-			],
-			[
 				"q",
 				"question"
 			],
@@ -415,6 +435,78 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "common/header.php",
+			"settings":
+			{
+				"buffer_size": 4058,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/header.js",
+			"settings":
+			{
+				"buffer_size": 7420,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/header.css",
+			"settings":
+			{
+				"buffer_size": 13534,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "common/sidebar.php",
+			"settings":
+			{
+				"buffer_size": 1912,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "common/footer.php",
+			"settings":
+			{
+				"buffer_size": 1821,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "page/home.php",
+			"settings":
+			{
+				"buffer_size": 3391,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/sidebar.css",
+			"settings":
+			{
+				"buffer_size": 2016,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/home.css",
+			"settings":
+			{
+				"buffer_size": 2471,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -479,7 +571,10 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Project/spheresearch"
+		"/D/Project/spheresearch",
+		"/D/Project/spheresearch/common",
+		"/D/Project/spheresearch/css",
+		"/D/Project/spheresearch/page"
 	],
 	"file_history":
 	[
@@ -628,13 +723,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".sidenav .menu-list {height: 50px; display: block; border: 1px solid #888; border-radius: 10px; background-color: white; }",
+			" @",
+			"@"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"\\n@"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -645,8 +744,272 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "common/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2565,
+								2565
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 460.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/header.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5021,
+								5021
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3798.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/header.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1585,
+								1585
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "common/sidebar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								607,
+								607
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "common/footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1728,
+								1728
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 590.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "page/home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3391,
+								3391
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/sidebar.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2016,
+								2016
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 277.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/home.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -729,7 +1092,7 @@
 		[
 			[
 				"",
-				"D:\\Project\\agapemrv2\\agapemrv2.sublime-workspace"
+				"D:\\Project\\gap_v2_local\\gap_v2_local.sublime-project"
 			]
 		],
 		"width": 380.0

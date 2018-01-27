@@ -1,7 +1,8 @@
 .main_foot_div{
 	padding: 90px 5% 70px 5%;
-	background-image: url('../img/footer-team.jpg');
-	background-position: center top;
+	background-image: url('../img/Homepage_Image_2.jpg');
+	background-position: center;
+	background-size: cover;
 }
 .newleter_para{
 	color:white;

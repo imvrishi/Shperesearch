@@ -14,8 +14,26 @@ h2.welcome-text { font-weight: 600; }
 .home-about-us { text-align: center; padding: 90px 5% 70px 5%; }
 .home-about-us h1 { font-weight: 600; font-size: 3.8em; line-height: 1em; }
 .home-about-us p { font-family: "Segoe UI"; font-size: 18px; }
-.simple-line { width: 70px; height: 6px; background-color: #0ab6d1; margin: 0 auto 20px auto; }
+.home-about-us .simple-line { width: 70px; height: 6px; background-color: #0ab6d1; margin: 0 auto 20px auto; }
 .home-about-us-info { overflow: hidden; margin-top: 40px; text-align: left; }
+
+
+.home-expertise { text-align: center; padding: 90px 5% 70px 5%; }
+.home-expertise h1 { font-weight: 600; font-size: 3.8em; line-height: 1em; }
+.home-expertise p { font-family: "Segoe UI"; font-size: 18px; }
+.home-expertise .simple-line {width: 90%;margin: 0 auto 20px auto;border-top: 1px solid #d6cece;}
+.home-expertise-info { overflow: hidden; margin-top: 40px; text-align: left; }
+.ui-tabs-vertical { max-width: 55em;width: 100%; }
+.ui-tabs-vertical .ui-tabs-nav {padding: 0;border: 0;border-radius: 0;float: left;width: 25%;border-bottom: 1px solid #dddddd;}
+.ui-tabs-vertical .ui-tabs-nav li {clear: left;width: 100%;/* border-bottom-width: 1px !important; *//* border-right-width: 0 !important; *//* margin: 0 -1px .2em 0; */border-radius: 0;}
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {/* padding-bottom: 0; *//* padding-right: .1em; */border-right-width: 1px;/* border: 0; */}
+.ui-tabs-vertical .ui-tabs-panel {padding: 1em;float: right;width: 75%;border: 1px solid #dddddd;}
+.ui-widget.ui-widget-content {border: 0;padding: 0;}
+.ui-tabs .ui-tabs-nav li {margin: 0;}
+.ui-tabs-tab.ui-tab:hover {background: #007fff;}
+.ui-tabs-tab.ui-tab:hover a {color: #ffffff;}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {width: 100%;}
 
 .home-client-showcase { text-align: center; padding: 90px 5% 70px 5%; background-image: url(../img/young-guys.jpg); background-attachment: fixed; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; background-position: center; }
 .home-client-showcase h2 { font-size: 2.8em; font-weight: 600; color: #fff; }

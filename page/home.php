@@ -30,16 +30,36 @@
 	</div>
 </div>
 
-<div id="expertise" class="expertise">
+<div id="home-expertise" class="home-expertise">
 	<div class="simple-line"></div>
-	<h1>About Us</h1>
-	<div class="home-about-us-info">
-		<div class="home-about-us-left col-sm-6 col-xs-12 pull-left">
-			<p>Spheresearch is Indo-Mexican fast growing market research firm unique in its class, result-driven and deeply committed to deliver <strong>ACCURACY</strong> as its primest value, our innovating business model offers to our customers a single point of contact for multi-country studies.</p>
-			<p>Our specialized team will help you to solve your business challenges using taylor made solutions. Our clients have experienced the ultimate level of accuracy in data collection with Spheresearch.</p>
+	<h1>Expertise</h1>
+	<div class="home-expertise-info">
+		<ul>
+			<li><a href="#tabs-1">Consumer Research</a></li>
+			<li><a href="#tabs-2">Product Innovation</a></li>
+			<li><a href="#tabs-3">Competitive Analysis</a></li>
+			<li><a href="#tabs-4">Market Analysis</a></li>
+		</ul>
+		<div id="tabs-1">
+			<p>Consumer research is about people. What they see, what they do, what they buy. What they eat, what they drink. What they think, what they choose, what they aspire to. How they act, how they react, how they spend.</p>
+			<p>And behind the whats and the hows, it’s always about the whys.</p>
+			<p>No-one has consumer data like we have consumer data. And no-one understands it like we do. It’s not just knowing the numbers, it’s knowing how they fit with everything else we know – from market trends and technological change to psychology and sociology. Context is king.</p>
 		</div>
-		<div class="home-about-us-right col-sm-6 col-xs-12 pull-right">
-			<p>We provide solutions to corporate, consumer, non profit and government organizations. We specialize in qualitative and quantitative research (CATI, CAWI, CAPI and CLT's, measurement, tracking , mystery shopping and focus groups).</p>
+		<div id="tabs-2">
+			<p>Our solutions and services in Product Innovation will help you create new products that customers will love.</p>
+			<p>Product innovation is not just about being new or being different. It’s about creating new products that customers will love, taking a different path consumers will want to follow. That’s where our expertise in product innovation comes into its own. We seek out new flavours, formulas, fragrances, packaging, ingredients and ideas. And we track how consumers respond, identifying what works and what doesn’t. And explaining exactly why. That gives our clients an edge. It tunes them in to emerging trends, giving them a base of knowledge on which their own new ideas can flourish. It’s why we can work for yours.</p>
+		</div>
+		<div id="tabs-3">
+			<p>Competitive intelligence is about keeping you out in front. Understand your competitors' strategies, successes and failure is key to developing a winning business strategy.</p>
+			<p>It’s about knowing the market, knowing your competitors and what they are doing – knowledge that will help you keep on setting the agenda, not having to chase it. It’s all about winning.</p>
+			<p>We track your market and the brands within it in real time and in real depth. Products, pricing, service, message, promotion.</p>
+			<p>It’s our competitive intelligence, for your competitive advantage.</p>
+		</div>
+		<div id="tabs-4">
+			<p>Top-class analysis and international research on different markets, including beauty, digital, drink, food, household.</p>
+			<p>Market knowledge is essential to business success. Market dynamics are moving faster than ever. Consumer behaviour has never been more complicated to track.</p>
+			<p>Factor in globalisation – touching individuals as surely as it changes brands. What’s trending now is doing so right across the planet. The world is getting smaller, but it isn’t any easier to navigate.</p>
+			<p>So market expertise needs to be as strategic as it is granular. It’s still about knowing the details close to home, but also the broader trends cutting across categories and borders alike.</p>
 		</div>
 	</div>
 </div>

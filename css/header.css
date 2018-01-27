@@ -64,7 +64,7 @@ a:hover { text-decoration: none; }
 @-o-keyframes pulse {0% {-o-transform: scale(1) } 50% {-o-transform: scale(1.1) } 100% {-o-transform: scale(1) } }
 @keyframes pulse {0% {transform: scale(1) } 50% {transform: scale(1.1) } 100% {transform: scale(1) } }
 
-.why-choose-us { text-align: center; padding: 90px 5% 70px 5%; background-image: url(../img/hands.jpg); color: rgb(255, 255, 255); background-position: 50% -179.401px; }
+.why-choose-us {text-align: center;padding: 90px 5% 70px 5%;background-image: url(../img/Homepage_Image_1.jpg);color: rgb(255, 255, 255);background-size: cover;}
 .why-choose-us h2 { font-weight: 600; font-size: 2.8em; line-height: 1em; }
 .why-choose-us-slider { margin-top: 90px; }
 .why-choose-us-slider .item h4 { font-style: italic; margin-top: 20px; }

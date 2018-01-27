@@ -38,6 +38,7 @@
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=" crossorigin="anonymous"></script>
 			<script src="js/slideout.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/history.js/1.8/native.history.min.js"></script>
+			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 			
 			<!-- Content -->
 			<script src="js/header.js"></script>

@@ -161,7 +161,7 @@ function readyPortChecker() {
 		});
 	});
 	
-	$('.why-choose-us > h2, .why-choose-us > .why-choose-us-slider, .home-client-showcase > h2, .home-client-showcase .home-clients-list, .main_foot_div .col-md-4').viewportChecker({
+	$('.why-choose-us > h2, .why-choose-us > .why-choose-us-slider, .home-client-showcase > h2, .home-client-showcase .home-clients-list, .main_foot_div .col-md-4, .home-expertise').viewportChecker({
 		classToAdd: 'animated fadeInUp',
 		classToRemove: 'hidden',
 		offset: 100
@@ -214,6 +214,12 @@ function attachHeader() {
 	}).trigger('scroll');
 }
 
+function readyTabs() {
+	
+	$( ".home-expertise-info" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+    $( ".home-expertise-info li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+}
+
 function load() {
 	
 }
@@ -246,6 +252,7 @@ function callAjax( directory, href, type ) {
 			// readyTree();
 			readyPortChecker();
 			loadHome();
+			readyTabs();
 			if ( href == 'home' ) {
 				video = document.querySelector('.home-video');
 				let b = setInterval(() => {
@@ -293,7 +300,7 @@ function ajaxifyApp() {
 
 function readyHeader() {
 	
-	$(document.body).on('click', 'a[href^="#"]', function( e ) {
+	$(document.body).on('click', 'a[href^="#"]:not(.ui-tabs-anchor)', function( e ) {
 		e.preventDefault();
 		scrollTo( $(this).attr('href') );
 	} );

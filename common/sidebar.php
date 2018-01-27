@@ -19,7 +19,7 @@
 				<ul data-parent="services">
 					<li><a href="qualitative">
 						<div class="menu-list">
-							<span class="menu-list-title">Qualitative</span>
+							<span class="menu-list-title">&nbsp;&nbsp;&nbsp;Qualitative</span>
 							<img class="header-icon-services" src="img/header-icon-qualitative.png" title="Qualitative">
 						</div>
 					</a></li>
