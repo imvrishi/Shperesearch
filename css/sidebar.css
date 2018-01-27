@@ -1,19 +1,35 @@
-#sidebar {height: 100px;background-color: #111;padding: 0 100px;}
+#sidebar {height: 100px;background: transparent;padding: 0 100px;position: absolute;top: 0;width: 100%;z-index: 2;}
+#sidebar.fixed {background-color: white; position: fixed;}
 
-ul {padding: 0;margin: 0;height: 100%;position: relative;}
-.sidenav {float: right;}
-.sidenav > li {float: left;}
-.sidenav li {transition: all 0.3s;width: 70px;height: 100%;list-style: none;}
+#sidebar .sidebar-logo-a {position: relative; top: 50%; transform: translateY(-50%); display: block; float: left; }
+
+ul {padding: 0;margin: 0;position: relative;}
+.sidenav {float: right;top: 50%;transform: translateY(-50%);}
+.sidenav > li {float: left;margin: auto 5px;}
+.sidenav li {transition: all 0.3s;height: 100%;list-style: none;/* position: relative; */}
 .sidenav li:hover, .sidenav li:active { color: #0ab6d1; }
-.sidenav ul {padding-bottom: 10px;visibility: hidden;opacity: 0;transition: visibility 0s, opacity 0.5s linear;}
-.sidenav ul li {padding-top: 10px;height: 60px;}
+.sidenav ul {position: absolute;padding-bottom: 10px;visibility: hidden;opacity: 0;transition: visibility 0s, opacity 0.5s linear;}
+.sidenav ul li {padding-top: 10px;/* height: 60px; */}
 .sidenav li:hover ul {top: 100%;z-index: 2;visibility: visible;opacity: 1;}
-.sidenav li:hover ul img {display: block;position: relative;z-index: 2;}
+.sidenav li:hover ul img {/* display: block; *//* position: relative; *//* z-index: 2; */}
+
+.sidenav .menu-list {height: 51px;display: block;border: 1px solid #888;border-radius: 10px;background-color: white;}
+.sidenav .menu-list:hover {border: 1px solid white; background-color: #888; }
+
+.fixed .sidenav .menu-list {border: 1px solid white;background-color: #888;}
+.fixed .sidenav .menu-list:hover {border: 1px solid #888;background-color: white;}
+
+.sidenav .menu-list .menu-list-title {margin: 0 10px; color: black; }
+.sidenav .menu-list:hover .menu-list-title {color: white; }
+
+.fixed .sidenav .menu-list .menu-list-title {margin: 0 10px; color: white; }
+.fixed .sidenav .menu-list:hover .menu-list-title {color: black; }
+
 
 .sidenav .sidebar-logo-a {padding: 0;}
 .sidebar-logo {width: auto;height: auto;max-width: 200px;max-height: 100px;}
-.sidenav img {width: 50px;display: block;position: absolute;top: 50%;transform: translateY(-50%);}
-.sidenav img:hover {filter: contrast(50%);}
+.sidenav img {width: 50px;}
+.sidenav img:hover {}
 
 @media screen and (max-height: 450px) {
 	.sidenav a { font-size: 18px; }

@@ -187,6 +187,31 @@ function ready( window ) {
 	readySidebar();
 	readyHeader();
 	callAjax( directory, getCurrentPage( 'route' ), 'statechange' );
+	attachHeader();
+}
+
+function attachHeader() {
+	
+	var $window = $(window),
+		$sidebar = $('#sidebar');
+	$window.scroll(function() {
+		
+		if ( $window.scrollTop() >= 100 ) {
+			if ( ! $sidebar.hasClass('fixed') ) {
+				$sidebar.slideUp('slow', function (argument) {
+					$sidebar.addClass('fixed');
+					$sidebar.slideDown('slow');
+				});
+			}
+		} else {
+			if ( $sidebar.hasClass('fixed') ) {
+				$sidebar.slideUp('slow', function (argument) {
+					$sidebar.removeClass('fixed');
+					$sidebar.slideDown('slow');
+				});
+			}
+		}
+	}).trigger('scroll');
 }
 
 function load() {
@@ -208,7 +233,8 @@ function callAjax( directory, href, type ) {
 		beforeSend: function() {
 			scrollTo('body');
 			slideoutRight.close();
-			$('.lds-hourglass').show();
+			$('#preloader').show();
+			// $('.lds-hourglass').show();
 			// $('#body-container').html('<div class="lds-hourglass"></div>');
 		},
 		success: function(data) {
@@ -217,20 +243,22 @@ function callAjax( directory, href, type ) {
 				History.pushState(null, href, 'index.php?route=' + href); // change the url and add our ajax request to our history
 			}
 			readySlick();
-			readyTree();
+			// readyTree();
 			readyPortChecker();
 			loadHome();
 			if ( href == 'home' ) {
 				video = document.querySelector('.home-video');
 				let b = setInterval(() => {
 					if( video.readyState === 4 ) {
-						$('.lds-hourglass').hide();
+						$('#preloader').hide();
+						// $('.lds-hourglass').hide();
 						clearInterval(b);
 						video.addEventListener('ended', playVideo, false);
 					}
 				}, 500);
 			} else {
-				$('.lds-hourglass').hide();
+				$('#preloader').hide();
+				// $('.lds-hourglass').hide();
 			}
 		}
 	});

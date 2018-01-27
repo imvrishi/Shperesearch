@@ -7,7 +7,7 @@
 						</div>
 						<div class="text">
 							<div class="title">Visit Us</div>
-							<div class="content">www.spheresearch.com</div>
+							<div class="content"></div>
 						</div>
 					</div>
 					<div class="item">
@@ -16,7 +16,7 @@
 						</div>
 						<div class="text">
 							<div class="title">Email Us</div>
-							<div class="content">hello@spheresearch.com</div>
+							<div class="content"></div>
 						</div>
 					</div>
 					<div class="item">
@@ -25,7 +25,7 @@
 						</div>
 						<div class="text">
 							<div class="title">Skype Us</div>
-							<div class="content">hello@spheresearch.com</div>
+							<div class="content"></div>
 						</div>
 					</div>
 				</div>

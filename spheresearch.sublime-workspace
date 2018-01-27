@@ -4,22 +4,6 @@
 		"selected_items":
 		[
 			[
-				"back",
-				"background-color"
-			],
-			[
-				"list",
-				"list-style"
-			],
-			[
-				"url",
-				"url()"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
 				"bil",
 				"bill_no"
 			],
@@ -422,6 +406,10 @@
 			[
 				"fu",
 				"fun\tFunction"
+			],
+			[
+				"url",
+				"urldecode"
 			]
 		]
 	},
@@ -491,27 +479,11 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Project/agapemrv2"
+		"/D/Project/spheresearch"
 	],
 	"file_history":
 	[
-		"/D/Project/agapemrv2/css/free_tree.css",
-		"/D/Project/agapemrv2/css/footer.css",
-		"/D/Project/agapemrv2/common/footer.php",
-		"/D/Project/agapemrv2/page/quantitative.php",
-		"/D/Project/agapemrv2/page/qualitative.php",
-		"/D/Project/agapemrv2/page/industries.php",
-		"/D/Project/agapemrv2/page/free-tree.php",
-		"/D/Project/agapemrv2/page/contact-us.php",
-		"/D/Project/agapemrv2/common/sidebar.php",
-		"/D/Project/agapemrv2/js/header.js",
-		"/D/Project/agapemrv2/css/home.css",
-		"/D/Project/agapemrv2/css/header.css",
-		"/D/Project/agapemrv2/page/home.php",
-		"/D/Project/agapemrv2/css/sidebar.css",
-		"/D/Project/agapemrv2/common/header.php",
-		"/D/Project/agapemrv2/index.php",
-		"/D/Project/agapemrv2/agapemrv2.sublime-project",
+		"/D/Project/spheresearch/Albedo_Wordpress_Theme/albedo/rtl.css",
 		"/D/Project/bitstock/application/core/MY_Controller.php",
 		"/D/Project/bitstock/assets/js/credit/credit.js",
 		"/D/Project/bitstock/application/views/credit/view_credit.php",
@@ -622,7 +594,23 @@
 		"/D/Project/gap_v2_local/sftp-config.json",
 		"/C/Users/Inspire/Dropbox/Changes.info",
 		"/D/Project/gap_v2_local/application/views/include/viewPermissionDtl_v.php",
-		"/D/Project/gap_v2_local/application/controllers/shift/shift_mst.php"
+		"/D/Project/gap_v2_local/application/controllers/shift/shift_mst.php",
+		"/D/Project/gap_v2_local/application/views/user/viewPermissionDtl_v.php",
+		"/D/Project/gap_v2_local/js/shift/manage_staff.js",
+		"/D/Project/gap_v2_local/application/models/shift/shift_roster_scheme_mst_m.php",
+		"/D/Project/gap_v2_local/application/controllers/shift/shift_roster_scheme_mst.php",
+		"/D/Project/gap_v2_local/application/models/shift/shift_calendar_m.php",
+		"/D/Project/gap_v2_local/js/shift/shift_calendar.js",
+		"/C/users/inspire/appdata/local/temp/sublime-sftp-browse-1512121950/mydev/home/mydev/www/dev/gap_v2/application/controllers/leaveMngt/leave_requests_dtl.php",
+		"/C/users/inspire/appdata/local/temp/sublime-sftp-browse-1512116568/mydev/home/mydev/www/dev/gap_v2/application/logs/org_register-2017-12-01.log",
+		"/C/users/inspire/appdata/local/temp/sublime-sftp-browse-1512117649/mydev/home/mydev/www/dev/gap_v2/application/logs/user_register-2017-12-01.log",
+		"/D/Project/gap_v2_local/js/shift/rota_manager_new.js",
+		"/D/Project/gap_v2_local/application/models/periodMngt/period_mst_m.php",
+		"/D/Project/gap_v2_local/application/controllers/setting_manager/change_module_settings.php",
+		"/D/Project/gap_v2_local/application/models/setting_manager/oa_brand_setting_attribute_mst_m.php",
+		"/D/Project/gap_v2_local/application/controllers/periodMngt/period_mst.php",
+		"/C/Users/Inspire/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/gaplocal",
+		"/D/Project/gap_v2_local/sftp-config-alt.json"
 	],
 	"find":
 	{
@@ -640,8 +628,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"Agape MR",
-			"newsletter"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -649,7 +635,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"Spheresearch"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -721,7 +706,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "agapemrv2.sublime-project",
+	"project": "spheresearch.sublime-project",
 	"replace":
 	{
 		"height": 52.0
@@ -744,7 +729,7 @@
 		[
 			[
 				"",
-				"D:\\Project\\gap_v2_local\\gap_v2_local.sublime-project"
+				"D:\\Project\\agapemrv2\\agapemrv2.sublime-workspace"
 			]
 		],
 		"width": 380.0
