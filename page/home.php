@@ -21,11 +21,11 @@
 	<h1>About Us</h1>
 	<div class="home-about-us-info">
 		<div class="home-about-us-left col-sm-6 col-xs-12 pull-left">
-			<p>Spheresearch is Indo-Mexican fast growing market research firm unique in its class, result-driven and deeply committed to deliver <strong>ACCURACY</strong> as its primest value, our innovating business model offers to our customers a single point of contact for multi-country studies.</p>
-			<p>Our specialized team will help you to solve your business challenges using taylor made solutions. Our clients have experienced the ultimate level of accuracy in data collection with Spheresearch.</p>
+			<p>Spheresearch is a research and management consultancy to some of the leading research, data and insights businesses in worldwide markets. We specialize in services for qualitative and quantitative research. For the benefit of our clients, we offer the breadth of knowledge, techniques and expertise to discover comprehensive solutions to the next advancement. Our approach combines skill and will harmoniously to grow from the most demanding challenges.</p>
 		</div>
 		<div class="home-about-us-right col-sm-6 col-xs-12 pull-right">
-			<p>We provide solutions to corporate, consumer, non profit and government organizations. We specialize in qualitative and quantitative research (CATI, CAWI, CAPI and CLT's, measurement, tracking , mystery shopping and focus groups).</p>
+			<p>Our forte lies in the unparalleled diversity of our people, methodologies, specializations and perspectives that flawlessly fuse to give us a unique and complete understanding of markets across the globe. We go beyond the apparent – with intelligence, desire and creativity – to find new directions, set strategies and plan actions that instigate astonishing success.</p>
+			<p>We are inspired by the potential and driven by the possibilities in insights, to accelerate achievements. We are committed to deliver solutions that enable life to revolutionize with confidence, substance, opportunities, and ultimately, with simplicity that makes our complex world faster to make the best possible decisions.</p>
 		</div>
 	</div>
 </div>

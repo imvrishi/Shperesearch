@@ -6,30 +6,69 @@
 ul {padding: 0;margin: 0;position: relative;}
 .sidenav {float: right;top: 50%;transform: translateY(-50%);}
 .sidenav > li {float: left;margin: auto 5px;}
-.sidenav li {transition: all 0.3s;height: 100%;list-style: none;/* position: relative; */}
+.sidenav li {transition: all 0.3s;height: 100%;list-style: none;}
 .sidenav li:hover, .sidenav li:active { color: #0ab6d1; }
 .sidenav ul {position: absolute;padding-bottom: 10px;visibility: hidden;opacity: 0;transition: visibility 0s, opacity 0.5s linear;}
-.sidenav ul li {padding-top: 10px;/* height: 60px; */}
+.sidenav ul li {padding-top: 10px;}
 .sidenav li:hover ul {top: 100%;z-index: 2;visibility: visible;opacity: 1;}
-.sidenav li:hover ul img {/* display: block; *//* position: relative; *//* z-index: 2; */}
+.sidenav li:hover ul img {}
 
-.sidenav .menu-list {height: 51px;display: block;border: 1px solid #888;border-radius: 10px;background-color: white;}
+.sidenav .menu-list {height: 52px;display: block;border: 1px solid #888;border-radius: 10px;background-color: white;padding: 12px 50px 12px 0;position: relative;}
 .sidenav .menu-list:hover {border: 1px solid white; background-color: #888; }
 
 .fixed .sidenav .menu-list {border: 1px solid white;background-color: #888;}
 .fixed .sidenav .menu-list:hover {border: 1px solid #888;background-color: white;}
 
-.sidenav .menu-list .menu-list-title {margin: 0 10px; color: black; }
+.sidenav .menu-list .menu-list-title {margin: 0 10px;color: black;}
 .sidenav .menu-list:hover .menu-list-title {color: white; }
 
 .fixed .sidenav .menu-list .menu-list-title {margin: 0 10px; color: white; }
 .fixed .sidenav .menu-list:hover .menu-list-title {color: black; }
 
-
 .sidenav .sidebar-logo-a {padding: 0;}
 .sidebar-logo {width: auto;height: auto;max-width: 200px;max-height: 100px;}
-.sidenav img {width: 50px;}
+.sidenav img, .sidenav .img {width: 50px;height: 50px;position: absolute;right: 0;top: 0;background-size: cover;}
 .sidenav img:hover {}
+
+/* Without Fixed Starts */
+/* Icons */
+.header-icon-home {background-image: url('../img/Home_Button_White.png');}
+.header-icon-services {background-image: url('../img/Services_Button_White.png');}
+.header-icon-qualitative {background-image: url('../img/Qualitative_Button_White.png');}
+.header-icon-quantitative {background-image: url('../img/Quantitative_Button_White.png');}
+.header-icon-industries {background-image: url('../img/Industries_Button_White.png');}
+/*.header-icon-free-tree {background-image: url('../img/Home_Button_White.png');}*/
+.header-icon-contact-us {background-image: url('../img/Contact_Button_White.png');}
+
+/* Changing icons on hover */
+.sidenav li:hover .header-icon-home {background-image: url('../img/Home_Button_Black.png');}
+.sidenav li:hover .header-icon-services {background-image: url('../img/Services_Button_Black.png');}
+.sidenav ul li:hover .header-icon-qualitative {background-image: url('../img/Qualitative_Button_Black.png');}
+.sidenav ul li:hover .header-icon-quantitative {background-image: url('../img/Quantitative_Button_Black.png');}
+.sidenav li:hover .header-icon-industries {background-image: url('../img/Industries_Button_Black.png');}
+/*.sidenav li:hover .header-icon-free-tree {background-image: url('../img/Home_Button_White.png');}*/
+.sidenav li:hover .header-icon-contact-us {background-image: url('../img/Contact_Button_Black.png');}
+/* Without Fixed Ends */
+
+/* Reverse for fixed Starts */
+/* Icons */
+.fixed .header-icon-home {background-image: url('../img/Home_Button_Black.png');}
+.fixed .header-icon-services {background-image: url('../img/Services_Button_Black.png');}
+.fixed .header-icon-qualitative {background-image: url('../img/Qualitative_Button_Black.png');}
+.fixed .header-icon-quantitative {background-image: url('../img/Quantitative_Button_Black.png');}
+.fixed .header-icon-industries {background-image: url('../img/Industries_Button_Black.png');}
+/*.fixed .header-icon-free-tree {background-image: url('../img/Home_Button_White.png');}*/
+.fixed .header-icon-contact-us {background-image: url('../img/Contact_Button_Black.png');}
+
+/* Changing icons on hover */
+.fixed .sidenav li:hover .header-icon-home {background-image: url('../img/Home_Button_White.png');}
+.fixed .sidenav li:hover .header-icon-services {background-image: url('../img/Services_Button_White.png');}
+.fixed .sidenav ul li:hover .header-icon-qualitative {background-image: url('../img/Qualitative_Button_White.png');}
+.fixed .sidenav ul li:hover .header-icon-quantitative {background-image: url('../img/Quantitative_Button_White.png');}
+.fixed .sidenav li:hover .header-icon-industries {background-image: url('../img/Industries_Button_White.png');}
+/*.fixed .sidenav li:hover .header-icon-free-tree {background-image: url('../img/Home_Button_White.png');}*/
+.fixed .sidenav li:hover .header-icon-contact-us {background-image: url('../img/Contact_Button_White.png');}
+/* Reverse for fixed Ends */
 
 @media screen and (max-height: 450px) {
 	.sidenav a { font-size: 18px; }
@@ -41,3 +80,14 @@ ul {padding: 0;margin: 0;position: relative;}
 	.page-wrapper { padding: 60px 0 10px; }
 	.lds-hourglass { width: 100%; }
 }
+
+/*
+ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; }
+li {float: left; }
+li a, .dropbtn {display: inline-block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+li a:hover, .dropdown:hover .dropbtn {background-color: red; }
+li.dropdown {display: inline-block; }
+.dropdown-content {display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; }
+.dropdown-content a {color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left; }
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {display: block; } */
