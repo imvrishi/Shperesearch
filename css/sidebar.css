@@ -1,4 +1,4 @@
-#sidebar {height: 100px;background: transparent;padding: 0 100px;position: absolute;top: 0;width: 100%;z-index: 2;}
+#sidebar {height: 100px;background: transparent;/* padding: 0 100px; */position: absolute;top: 0;padding-left: calc( ( 100% - 1200px ) / 2 );padding-right: calc( ( 100% - 1200px ) / 2 );width: 100%;z-index: 2;}
 #sidebar.fixed {background-color: white; position: fixed;}
 
 #sidebar .sidebar-logo-a {position: relative; top: 50%; transform: translateY(-50%); display: block; float: left; }
@@ -16,14 +16,14 @@ ul {padding: 0;margin: 0;position: relative;}
 .sidenav .menu-list {height: 52px;display: block;border: 1px solid #888;border-radius: 10px;background-color: white;padding: 12px 50px 12px 0;position: relative;}
 .sidenav .menu-list:hover {border: 1px solid white; background-color: #888; }
 
-.fixed .sidenav .menu-list {border: 1px solid white;background-color: #888;}
-.fixed .sidenav .menu-list:hover {border: 1px solid #888;background-color: white;}
+/*.fixed .sidenav .menu-list {border: 1px solid white;background-color: #888;}*/
+/*.fixed .sidenav .menu-list:hover {border: 1px solid #888;background-color: white;}*/
 
 .sidenav .menu-list .menu-list-title {margin: 0 10px;color: black;}
 .sidenav .menu-list:hover .menu-list-title {color: white; }
 
-.fixed .sidenav .menu-list .menu-list-title {margin: 0 10px; color: white; }
-.fixed .sidenav .menu-list:hover .menu-list-title {color: black; }
+/*.fixed .sidenav .menu-list .menu-list-title {margin: 0 10px; color: white; }*/
+/*.fixed .sidenav .menu-list:hover .menu-list-title {color: black; }*/
 
 .sidenav .sidebar-logo-a {padding: 0;}
 .sidebar-logo {width: auto;height: auto;max-width: 200px;max-height: 100px;}
@@ -32,41 +32,41 @@ ul {padding: 0;margin: 0;position: relative;}
 
 /* Without Fixed Starts */
 /* Icons */
-.header-icon-home {background-image: url('../img/Home_Button_White.png');}
-.header-icon-services {background-image: url('../img/Services_Button_White.png');}
-.header-icon-qualitative {background-image: url('../img/Qualitative_Button_White.png');}
-.header-icon-quantitative {background-image: url('../img/Quantitative_Button_White.png');}
-.header-icon-industries {background-image: url('../img/Industries_Button_White.png');}
-/*.header-icon-free-tree {background-image: url('../img/Home_Button_White.png');}*/
-.header-icon-contact-us {background-image: url('../img/Contact_Button_White.png');}
+.header-icon-home {background-image: url('../img/Home_Button_Black.png');}
+.header-icon-services {background-image: url('../img/Services_Button_Black.png');}
+.header-icon-qualitative {background-image: url('../img/Qualitative_Button_Black.png');}
+.header-icon-quantitative {background-image: url('../img/Quantitative_Button_Black.png');}
+.header-icon-industries {background-image: url('../img/Industries_Button_Black.png');}
+.header-icon-free-tree {background-image: url('../img/Members_Button_Black.png');}
+.header-icon-contact-us {background-image: url('../img/Contact_Button_Black.png');}
 
 /* Changing icons on hover */
-.sidenav li:hover .header-icon-home {background-image: url('../img/Home_Button_Black.png');}
-.sidenav li:hover .header-icon-services {background-image: url('../img/Services_Button_Black.png');}
-.sidenav ul li:hover .header-icon-qualitative {background-image: url('../img/Qualitative_Button_Black.png');}
-.sidenav ul li:hover .header-icon-quantitative {background-image: url('../img/Quantitative_Button_Black.png');}
-.sidenav li:hover .header-icon-industries {background-image: url('../img/Industries_Button_Black.png');}
-/*.sidenav li:hover .header-icon-free-tree {background-image: url('../img/Home_Button_White.png');}*/
-.sidenav li:hover .header-icon-contact-us {background-image: url('../img/Contact_Button_Black.png');}
+.sidenav li:hover .header-icon-home {background-image: url('../img/Home_Button_White.png');}
+.sidenav li:hover .header-icon-services {background-image: url('../img/Services_Button_White.png');}
+.sidenav ul li:hover .header-icon-qualitative {background-image: url('../img/Qualitative_Button_White.png');}
+.sidenav ul li:hover .header-icon-quantitative {background-image: url('../img/Quantitative_Button_White.png');}
+.sidenav li:hover .header-icon-industries {background-image: url('../img/Industries_Button_White.png');}
+.sidenav li:hover .header-icon-free-tree {background-image: url('../img/Members_Button_White.png');}
+.sidenav li:hover .header-icon-contact-us {background-image: url('../img/Contact_Button_White.png');}
 /* Without Fixed Ends */
 
-/* Reverse for fixed Starts */
-/* Icons */
+/* Reverse for fixed Starts /
+/* Icons /
 .fixed .header-icon-home {background-image: url('../img/Home_Button_Black.png');}
 .fixed .header-icon-services {background-image: url('../img/Services_Button_Black.png');}
 .fixed .header-icon-qualitative {background-image: url('../img/Qualitative_Button_Black.png');}
 .fixed .header-icon-quantitative {background-image: url('../img/Quantitative_Button_Black.png');}
 .fixed .header-icon-industries {background-image: url('../img/Industries_Button_Black.png');}
-/*.fixed .header-icon-free-tree {background-image: url('../img/Home_Button_White.png');}*/
+.fixed .header-icon-free-tree {background-image: url('../img/Members_Button_Black.png');}
 .fixed .header-icon-contact-us {background-image: url('../img/Contact_Button_Black.png');}
 
-/* Changing icons on hover */
+/* Changing icons on hover /
 .fixed .sidenav li:hover .header-icon-home {background-image: url('../img/Home_Button_White.png');}
 .fixed .sidenav li:hover .header-icon-services {background-image: url('../img/Services_Button_White.png');}
 .fixed .sidenav ul li:hover .header-icon-qualitative {background-image: url('../img/Qualitative_Button_White.png');}
 .fixed .sidenav ul li:hover .header-icon-quantitative {background-image: url('../img/Quantitative_Button_White.png');}
 .fixed .sidenav li:hover .header-icon-industries {background-image: url('../img/Industries_Button_White.png');}
-/*.fixed .sidenav li:hover .header-icon-free-tree {background-image: url('../img/Home_Button_White.png');}*/
+.fixed .sidenav li:hover .header-icon-free-tree {background-image: url('../img/Members_Button_White.png');}
 .fixed .sidenav li:hover .header-icon-contact-us {background-image: url('../img/Contact_Button_White.png');}
 /* Reverse for fixed Ends */
 

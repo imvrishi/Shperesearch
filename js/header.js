@@ -56,29 +56,22 @@ function loadHome() {
 	});
 }
 
-function readySlick() {
+function readyCarousel() {
 	
-	$('.why-choose-us-slider').not('.slick-initialized').slick({
-		lazyLoad: 'ondemand',
-		arrows: false,
-		dots: true,
-		infinite: true,
-		speed: 500,
-		slidesToShow: 1,
+	$('.owl-carousel').owlCarousel({
+		animateOut: 'zoomOutLeft',
+		animateIn: 'zoomInRight',
+		items: 1,
+		margin: 30,
+		stagePadding: 30,
+		smartSpeed: 450,
+		loop: true,
 		autoplay: true,
-		autoplaySpeed: 5000,
-		fade: true,
-		customPaging : function(slider, i) {
-			return '<a href="#"><span class="slider-custom-dots"></span><span  class="slider-custom-dots active"></span></a>';
-		},
+		autoplayTimeout: 5000,
+		autoplayHoverPause: false,
+		touchDrag: false,
+		mouseDrag: false
 	});
-	
-	var slideIndex, $slick_dots_li_a = $(".slick-dots li a");
-	$slick_dots_li_a.click(function(e){
-        e.preventDefault();
-        slideIndex = $slick_dots_li_a.index( this );
-        $( '.why-choose-us-slider' ).slick('slickGoTo', parseInt(slideIndex) );
-    });
 }
 
 function readySidebar() {
@@ -150,18 +143,35 @@ function readyPortChecker() {
 		serviceCount = 2;
 	if( windowWidth <= 560 )
 		serviceCount = 1;
+	let animation;
 	
-	$('.single-service').each(function( index, el ) {
+	$('.qualitative .single-service').each(function( index, el ) {
 		
 		minIndex = index % serviceCount;
+		if ( minIndex == 0 ) {
+			animation = 'fadeInLeft';
+		} else if ( minIndex + 1 == serviceCount ) {
+			animation = 'fadeInRight';
+		} else {
+			animation = 'fadeInUp';
+		}
 		$(this).viewportChecker({
-			classToAdd: 'animated fadeInUp',
+			classToAdd: `animated ${animation}`,
 			classToRemove: 'hidden',
-			offset: minIndex * 100
+			offset: 100
+		});
+	});
+
+	$('.quantitative .single-service').each(function( index, el ) {
+		
+		$(this).viewportChecker({
+			classToAdd: 'animated fadeIn',
+			classToRemove: 'hidden',
+			offset: 100
 		});
 	});
 	
-	$('.why-choose-us > h2, .why-choose-us > .why-choose-us-slider, .home-client-showcase > h2, .home-client-showcase .home-clients-list, .main_foot_div .col-md-4, .home-expertise').viewportChecker({
+	$('.why-choose-us h2, .why-choose-us .why-choose-us-slider, .home-client-showcase > h2, .home-client-showcase .home-clients-list, .main_foot_div .col-md-4, .home-expertise, .home-about-us h1, .home-about-us .home-about-us-info').viewportChecker({
 		classToAdd: 'animated fadeInUp',
 		classToRemove: 'hidden',
 		offset: 100
@@ -193,23 +203,16 @@ function ready( window ) {
 function attachHeader() {
 	
 	var $window = $(window),
-		$sidebar = $('#sidebar');
+		$sidebar = $('#sidebar'),
+		$footer = $('.footer');
 	$window.scroll(function() {
 		
 		if ( $window.scrollTop() >= 100 ) {
-			if ( ! $sidebar.hasClass('fixed') ) {
-				$sidebar.slideUp('slow', function (argument) {
-					$sidebar.addClass('fixed');
-					$sidebar.slideDown('slow');
-				});
-			}
+			$sidebar.addClass('fixed');
+			$footer.addClass('fixed-footer');
 		} else {
-			if ( $sidebar.hasClass('fixed') ) {
-				$sidebar.slideUp('slow', function (argument) {
-					$sidebar.removeClass('fixed');
-					$sidebar.slideDown('slow');
-				});
-			}
+			$sidebar.removeClass('fixed');
+			$footer.removeClass('fixed-footer');
 		}
 	}).trigger('scroll');
 }
@@ -222,6 +225,14 @@ function readyTabs() {
 
 function load() {
 	
+}
+
+function alignElements() {
+	
+	let screenWidth = $( window ).width();
+	let containerWidth = 1200;
+	let left = ( containerWidth - screenWidth ) / 2;
+	$('.home-banner video, .service-top-banner').css('left', left).css('width', screenWidth);
 }
 
 let video;
@@ -248,11 +259,12 @@ function callAjax( directory, href, type ) {
 			if( type == 'click' ) {
 				History.pushState(null, href, 'index.php?route=' + href); // change the url and add our ajax request to our history
 			}
-			readySlick();
+			readyCarousel();
 			// readyTree();
 			readyPortChecker();
 			loadHome();
 			readyTabs();
+			alignElements();
 			if ( href == 'home' ) {
 				video = document.querySelector('.home-video');
 				let b = setInterval(() => {

@@ -2,13 +2,13 @@
 	<div class="service-top-text">
 		<h1 class="service-welcome-text">QUANTITATIVE SERVICES</h1>
 		<h5 class="service-welcome-text">
-			<br/>
-			Quantitative research involves the collection and analysis of data generalized to large populations of people. It helps in determining the relationship between Independent or Dependant variables amongst the population. Quantitative research deals in numbers, logic, and an objective stance which leads to statistical insights.
-			<br/><br/> Agape Research conduct Quantitative Research with descriptive and experimental deigns with most efficient tools and provide the best stats to clients. We offer below mentioned quantitative services.
+			<p><strong>Spheresearch</strong> believes in implementing innovative strategies and techniques backed by our strong theoretical understanding and deep knowledge of traditional processes in conducting quantitative research for any industry. We deliver expert services that relieve our clients from the overhead of deploying complex internal research systems and processes to fulfil their market research needs. We have a flexible approach to data collection, analysis, business intelligence and partnerships in achieving business growth for the clients.</p>
+			<p><strong>We have performed several quantitative studies</strong> by way of generating data through surveys in different modalities (online, phone, paper), audits, points of purchase, face-to- face interviews, telephonic interviews, longitudinal studies, website interceptors, online polls, and systematic observations.</p>
+			<p>Our team incorporates peerless scholastic accreditation with in-depth applied business expertise attracting some of the world’s top business organizations to rely on us for their market research requirements.</p>
 		</h5>
 	</div>
 </div>
-<div class="services-list" id="services-list">
+<div class="services-list quantitative" id="services-list">
 	<div class="single-service">
 		<i class="fa fa-user-plus"></i>
 		<div class="single-service-text">

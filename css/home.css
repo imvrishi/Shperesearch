@@ -1,12 +1,12 @@
-.home-banner {overflow: hidden;position: relative;height: 100vh;}
-.home-banner video { }
+.home-banner {/* overflow: hidden; *//* position: relative; *//* height: 100vh; */}
+.home-banner video {width: 100%;/* position: absolute; *//* top: 0; *//* left: 0; */position: relative;left: 0;}
 .home-banner-text { position: absolute; top: 25%; left: 0; text-align: center; width: 100%; }
 .home-banner-text img {max-width: 350px;max-height: 200px;width: auto;}
 
 .welcome-text { color: #fff; }
 h2.welcome-text { font-weight: 600; }
 
-.down-arrow { position: absolute; bottom: 0; left: 0; color: white; width: 100%; text-align: center; }
+.down-arrow {position: absolute;top: calc( 100vh - 64px );left: 0;color: white;width: 100%;text-align: center;}
 
 .down-arrow i { -webkit-animation-name: bounceInSmall; -moz-animation-name: bounceInSmall; -ms-animation-name: bounceInSmall; -o-animation-name: bounceInSmall; animation-name: bounceInSmall; -webkit-animation-duration: 3s; -moz-animation-duration: 3s; -ms-animation-duration: 3s; -o-animation-duration: 3s; animation-duration: 3s; -webkit-animation-delay: 0s; -moz-animation-delay: 0s; -ms-animation-delay: 0s; -o-animation-delay: 0s; animation-delay: 0s; -webkit-animation-timing-function: ease; -moz-animation-timing-function: ease; -ms-animation-timing-function: ease; -o-animation-timing-function: ease; animation-timing-function: ease; -webkit-animation-fill-mode: both; -moz-animation-fill-mode: both; -ms-animation-fill-mode: both; -o-animation-fill-mode: both; animation-fill-mode: both; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden; -webkit-animation-iteration-count: infinite; }
 .down-arrow i:hover { color: white; }
@@ -18,11 +18,11 @@ h2.welcome-text { font-weight: 600; }
 .home-about-us-info { overflow: hidden; margin-top: 40px; text-align: left; }
 
 
-.home-expertise { text-align: center; padding: 90px 5% 70px 5%; }
+.home-expertise {text-align: center;padding: 0 5% 70px 5%;}
 .home-expertise h1 { font-weight: 600; font-size: 3.8em; line-height: 1em; }
 .home-expertise p { font-family: "Segoe UI"; font-size: 18px; }
 .home-expertise .simple-line {width: 90%;margin: 0 auto 20px auto;border-top: 1px solid #d6cece;}
-.home-expertise-info { overflow: hidden; margin-top: 40px; text-align: left; }
+.home-expertise-info {overflow: hidden;margin: 0 auto;margin-top: 40px;text-align: left;}
 .ui-tabs-vertical { max-width: 55em;width: 100%; }
 .ui-tabs-vertical .ui-tabs-nav {padding: 0;border: 0;border-radius: 0;float: left;width: 25%;border-bottom: 1px solid #dddddd;}
 .ui-tabs-vertical .ui-tabs-nav li {clear: left;width: 100%;/* border-bottom-width: 1px !important; *//* border-right-width: 0 !important; *//* margin: 0 -1px .2em 0; */border-radius: 0;}
@@ -40,3 +40,6 @@ h2.welcome-text { font-weight: 600; }
 .home-clients-list-wrapper { padding: 90px 0 70px 0; }
 .home-clients-list { display: flex; margin: auto; justify-content: space-evenly; flex-flow: wrap; }
 .home-client-showcase img { padding: 5px; flex-grow: 1; max-width: 154px; max-height: 80px; }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: #0ab6d1;}
+.owl-theme .owl-dots .owl-dot span {    width: 30px; height: 5px; margin: 5px 7px; background: #D6D6D6; display: block; -webkit-backface-visibility: visible; transition: opacity .2s ease; border-radius: 0; }

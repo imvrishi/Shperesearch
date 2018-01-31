@@ -2,13 +2,13 @@
 	<div class="service-top-text">
 		<h1 class="service-welcome-text hidden">QUALITATIVE SERVICES</h1>
 		<h5 class="service-welcome-text hidden">
-			<br/>
-			Qualitative Research is an interpretive naturalistic approach to the world which emphasizes on natural setting at the point of view of the research participant. Behind all research stands the biography of the gendered researcher, who speaks from a particular class, racial, cultural and ethnic community perspective.
-			<br/><br/> Qualitative methods provide an edge of clear picture and set of exact information to our client which brings the core insights to build a perfect strategy. Agape Market Research developed the processes and tools to optimize the results to integrate a perfect business strategy depending on valuable insights.
+			<p><strong>Spheresearch</strong> helps businesses in being informed about their customer’s needs, choices, perceptions and attitudes. This acts as a guiding force in being informed about their customer’s requirement thus pioneering the marketing needs. We provide proficient qualitative research services that throws light on the attitude, behaviour and understanding of the driving force behind the decisions of the customer and we have proven expertise in this field.</p>
+			<p><strong>We have performed several qualitative studies</strong> providing insights into the problem or helping to develop ideas using data collection methods such as focus groups (group discussions), triads, dyads, in-depth interviews, uninterrupted observation, bulletin boards, and ethnographic participation/observation.</p>
+			<p>Our team incorporates peerless scholastic accreditation with in-depth applied business expertise attracting some of the world’s top business organizations to rely on us for their market research requirements.</p>
 		</h5>
 	</div>
 </div>
-<div class="services-list" id="services-list">
+<div class="services-list qualitative" id="services-list">
 	<div class="single-service hidden">
 		<i class="fa fa-user-plus"></i>
 		<div class="single-service-text">

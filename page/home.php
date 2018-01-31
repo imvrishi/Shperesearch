@@ -5,26 +5,27 @@
 			<!-- <source src="videos/global.mp4" type="video/webm"> -->
 		</video>
 	</div>
-	<div class="home-banner-text">
+	<!-- <div class="home-banner-text">
 		<img class="home-banner-logo hidden" src="img/logo/Header_Logo.png" />
 		<h2 class="welcome-text hidden">WELCOME TO</h2>
 		<h1 class="welcome-text hidden">SPHERESEARCH</h1>
 		<br/>
 		<h2 class="welcome-text hidden">Your Global Research Partner</h2>
-	</div>
+	</div> -->
 	<div class="down-arrow">
 		<a href="#home-about-us"><i class="fa fa-angle-double-down fa-4x" aria-hidden="true"></i></a>
 	</div>
 </div>
 <div id="home-about-us" class="home-about-us">
 	<div class="simple-line"></div>
-	<h1>About Us</h1>
-	<div class="home-about-us-info">
+	<h1 class="hidden">About Us</h1>
+	<div class="home-about-us-info hidden">
 		<div class="home-about-us-left col-sm-6 col-xs-12 pull-left">
 			<p>Spheresearch is a research and management consultancy to some of the leading research, data and insights businesses in worldwide markets. We specialize in services for qualitative and quantitative research. For the benefit of our clients, we offer the breadth of knowledge, techniques and expertise to discover comprehensive solutions to the next advancement. Our approach combines skill and will harmoniously to grow from the most demanding challenges.</p>
+			<p>We go beyond the apparent – with intelligence, desire and creativity – to find new directions, set strategies and plan actions that instigate astonishing success.</p>
 		</div>
 		<div class="home-about-us-right col-sm-6 col-xs-12 pull-right">
-			<p>Our forte lies in the unparalleled diversity of our people, methodologies, specializations and perspectives that flawlessly fuse to give us a unique and complete understanding of markets across the globe. We go beyond the apparent – with intelligence, desire and creativity – to find new directions, set strategies and plan actions that instigate astonishing success.</p>
+			<p>Our forte lies in the unparalleled diversity of our people, methodologies, specializations and perspectives that flawlessly fuse to give us a unique and complete understanding of markets across the globe.</p>
 			<p>We are inspired by the potential and driven by the possibilities in insights, to accelerate achievements. We are committed to deliver solutions that enable life to revolutionize with confidence, substance, opportunities, and ultimately, with simplicity that makes our complex world faster to make the best possible decisions.</p>
 		</div>
 	</div>
@@ -32,7 +33,7 @@
 
 <div id="home-expertise" class="home-expertise">
 	<div class="simple-line"></div>
-	<h1>Expertise</h1>
+	<h1>Our Expertise</h1>
 	<div class="home-expertise-info">
 		<ul>
 			<li><a href="#tabs-1">Consumer Research</a></li>

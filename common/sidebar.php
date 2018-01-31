@@ -1,7 +1,9 @@
 <section id="panel" class="panel page-wrapper">
 	<section id="sidebar">
 
-		<a href="#" class="sidebar-logo-a"><img class="sidebar-logo" src="img/logo/Header_Logo.png" /></a>
+		<span class="sidebar-logo-a">
+			<img class="sidebar-logo" src="img/logo/Header_Logo.png" />
+		</span>
 	
 		<!-- <ul>
 			<li><a href="#home">Home</a></li>
@@ -50,12 +52,12 @@
 					<div class="header-icon-industries img" title="INDUSTRIES"></div>
 				</div>
 			</a></li>
-			<!-- <li><a href="free-tree">
+			<li><a href="free-tree">
 				<div class="menu-list">
-					<span class="menu-list-title">FREE TREE</span>
-					<div class="header-icon-free-tree img" title="FREE TREE"></div>
+					<span class="menu-list-title">ASSOCIATE</span>
+					<div class="header-icon-free-tree img" title="ASSOCIATE"></div>
 				</div>
-			</a></li> -->
+			</a></li>
 			<li><a href="contact-us">
 				<div class="menu-list">
 					<span class="menu-list-title">CONTACT US</span>

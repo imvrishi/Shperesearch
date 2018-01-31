@@ -1,5 +1,5 @@
 <div class ="main_foot_div">
-	<div class="row">
+	<div class="row main_foot_div-wrapper">
 		<div class="col-md-12">
 			<div class="col-md-4 hidden" style="float:left">
 				<h6 class="footer_heading"style=";">NEWSLETTER</h6>
@@ -61,11 +61,11 @@
 				<h6 class="footer_heading">GET CONNECTED</h6>
 				<p>Follow us on social media</p>
 				<div class="icons">
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#" style="border: 1px solid white;  padding: 2px 5px 2px 5px;"><i class="fa fa-facebook"></i></a>
-					<a href="#" style="border: 1px solid white;  padding: 2px 5px 2px 5px;"><i class="fa fa-google-plus"></i></a>
-					<a href="#" style="border: 1px solid white;  padding: 2px 5px 2px 5px;"><i class="fa fa-instagram"></i></a>
-					<a href="#" style="border: 1px solid white;  padding: 2px 5px 2px 5px;"><i class="fa fa-twitter"></i></a>
+					<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+					<a href="#" class="facebook" style="padding: 2px 5px 2px 5px;"><i class="fa fa-facebook"></i></a>
+					<a href="#" class="google-plus" style="padding: 2px 5px 2px 5px;"><i class="fa fa-google-plus"></i></a>
+					<!-- <a href="#" style="padding: 2px 5px 2px 5px;"><i class="fa fa-instagram"></i></a> -->
+					<a href="#" class="twitter" style="padding: 2px 5px 2px 5px;"><i class="fa fa-twitter"></i></a>
 			</div>
 		</div>
 		</div>
