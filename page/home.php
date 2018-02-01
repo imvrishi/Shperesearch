@@ -36,31 +36,26 @@
 	<h1>Our Expertise</h1>
 	<div class="home-expertise-info">
 		<ul>
-			<li><a href="#tabs-1">Consumer Research</a></li>
-			<li><a href="#tabs-2">Product Innovation</a></li>
-			<li><a href="#tabs-3">Competitive Analysis</a></li>
-			<li><a href="#tabs-4">Market Analysis</a></li>
+			<li><a href="#tabs-1">Surveys</a></li>
+			<li><a href="#tabs-2">Interviews</a></li>
+			<li><a href="#tabs-3">Focus Groups</a></li>
+			<li><a href="#tabs-4">Observations</a></li>
+			<li><a href="#tabs-5">Field Trials</a></li>
 		</ul>
 		<div id="tabs-1">
-			<p>Consumer research is about people. What they see, what they do, what they buy. What they eat, what they drink. What they think, what they choose, what they aspire to. How they act, how they react, how they spend.</p>
-			<p>And behind the whats and the hows, it’s always about the whys.</p>
-			<p>No-one has consumer data like we have consumer data. And no-one understands it like we do. It’s not just knowing the numbers, it’s knowing how they fit with everything else we know – from market trends and technological change to psychology and sociology. Context is king.</p>
+			<p>Surveys are perhaps the easiest place to start and the most widely known and utilized method when it comes to market research. For survey market research to be successful, the questionnaire needs to be spot on and the sample size needs to be as large as required for the target market. We can help you measure something objectively, beyond the exploratory portion of your research and test more specific questions. Our expertise can effectively measure attitudes, research pricing, gather facts (e.g. the census), and much more. We specialize in handling relatively large sample sizes to query.</p>
 		</div>
 		<div id="tabs-2">
-			<p>Our solutions and services in Product Innovation will help you create new products that customers will love.</p>
-			<p>Product innovation is not just about being new or being different. It’s about creating new products that customers will love, taking a different path consumers will want to follow. That’s where our expertise in product innovation comes into its own. We seek out new flavours, formulas, fragrances, packaging, ingredients and ideas. And we track how consumers respond, identifying what works and what doesn’t. And explaining exactly why. That gives our clients an edge. It tunes them in to emerging trends, giving them a base of knowledge on which their own new ideas can flourish. It’s why we can work for yours.</p>
+			<p>One to one interviews with respondents is a more traditional forms of market research, whereby you essentially deliver the survey in person, but in return you get richer, more nuanced answers. We can help you in excavating into a specific issue deeply, searching for customer problems, understanding psychological motivations and underlying perceptions, etc. We consider interviews as one of our very specialised skillset knowing how to interact with your candidate, how you ask the question, order them, respond to them etc. having a direct effect on how they answer and respond.</p>
 		</div>
 		<div id="tabs-3">
-			<p>Competitive intelligence is about keeping you out in front. Understand your competitors' strategies, successes and failure is key to developing a winning business strategy.</p>
-			<p>It’s about knowing the market, knowing your competitors and what they are doing – knowledge that will help you keep on setting the agenda, not having to chase it. It’s all about winning.</p>
-			<p>We track your market and the brands within it in real time and in real depth. Products, pricing, service, message, promotion.</p>
-			<p>It’s our competitive intelligence, for your competitive advantage.</p>
+			<p>Focus groups involve getting a group of people together in a room (usually physically, although technology is making virtual, or online focus groups more feasible). We find the people which fit a target demographic (e.g. “mothers under 40 with an income over $50k”, “college males who play 8 or more hours of video games a week”, etc.) depending on the product or service in question. An experienced moderator will guide the discussion, with a goal of getting participants to discuss the topic among themselves, bouncing thoughts off of one another in a natural group setting.</p>
 		</div>
 		<div id="tabs-4">
-			<p>Top-class analysis and international research on different markets, including beauty, digital, drink, food, household.</p>
-			<p>Market knowledge is essential to business success. Market dynamics are moving faster than ever. Consumer behaviour has never been more complicated to track.</p>
-			<p>Factor in globalisation – touching individuals as surely as it changes brands. What’s trending now is doing so right across the planet. The world is getting smaller, but it isn’t any easier to navigate.</p>
-			<p>So market expertise needs to be as strategic as it is granular. It’s still about knowing the details close to home, but also the broader trends cutting across categories and borders alike.</p>
+			<p>The greatest benefit of this technique is that we can measure actual behaviour, as opposed to user-reported behaviour. Taking observation more seriously, we consider all methods, from A/B Testing different value propositions, Usability Testing, Eye Tracking, Contextual Inquiry, Mystery Shoppers to checking heatmaps so you understand what people are interested in at a granular level. Engaged together we provide a rich and detailed look at people’s behaviour around your product, which you can use to make further development decisions. Observational research is a direct reflection of “real life,” so these insights are reliable and useful.</p>
+		</div>
+		<div id="tabs-5">
+			<p>Experiments and field trials involve scientific testing, where specific variables and hypotheses can be tested.  These tests can be conducted in controlled environments or out in the field (natural settings). We have a unique approach, which observes cause and affects relationship. We can help pilot test new products and research applications in product driven markets. Observing people and your product in real life can offer invaluable qualitative and quantitative feedback that will help you shape your decisions.</p>
 		</div>
 	</div>
 </div>

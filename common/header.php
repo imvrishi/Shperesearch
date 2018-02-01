@@ -4,7 +4,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
 		<?php /* <link rel="shortcut icon" href="http://agapemr.com/index.html#"> */ ?>
 		<meta charset="utf-8">
-		<title>Home – Spheresearch</title>
+		<title>Home | Spheresearch</title>
 		<meta http-equiv="cleartype" content="on">
 		<meta name="MobileOptimized" content="320">
 		<meta name="HandheldFriendly" content="True">
@@ -31,6 +31,7 @@
 		<link rel="stylesheet" href="css/industries.css" />
 		<link rel="stylesheet" href="css/free_tree.css" />
 		<link rel="stylesheet" href="css/contact-us.css" />
+		<link rel="stylesheet" href="css/careers.css" />
 		
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>

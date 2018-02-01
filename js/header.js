@@ -23,19 +23,6 @@ function scrollTo( el )
 		);
 }
 
-function readyTree() {
-	
-	var $window = $(window),
-		$fixHeaderNav = $('.fix_header_nav')
-		height = 0;
-	$window.scroll(function() {
-		
-		height = $(this).scrollTop() - 200;
-		height = Math.min( Math.max( height, 0 ), 60 );
-		$fixHeaderNav.css('height', height);
-	}).trigger('scroll');
-}
-
 function loadHome() {
 	
 	$('.home-banner-logo').viewportChecker({
@@ -181,7 +168,7 @@ function readyPortChecker() {
 function getCurrentPage( param ) {
 	
 	var value = 'home';
-	if( ! queryString ) queryString = window.location.href.split('?')[1];
+	queryString = window.location.href.split('?')[1];
 	if( queryString ) {
 		queryString
 			.split('&')
@@ -232,7 +219,18 @@ function alignElements() {
 	let screenWidth = $( window ).width();
 	let containerWidth = 1200;
 	let left = ( containerWidth - screenWidth ) / 2;
-	$('.home-banner video, .service-top-banner').css('left', left).css('width', screenWidth);
+	$('.home-banner video, .service-top-banner, .header-banner, .meeting-img, .career-img').css('left', left).css('width', screenWidth);
+}
+
+function highlightMenu( href ) {
+	
+	$('.sidenav .menu-list').removeClass('active');
+	$('a[href="' + href + '"] .menu-list').addClass('active');
+}
+
+function jsUcfirst( title ) {
+	
+	return title.charAt(0).toUpperCase() + title.slice(1) + ' | Spheresearch';
 }
 
 let video;
@@ -257,28 +255,30 @@ function callAjax( directory, href, type ) {
 		success: function(data) {
 			$('#body-container').html(data); // place our ajaxed content into our content area
 			if( type == 'click' ) {
-				History.pushState(null, href, 'index.php?route=' + href); // change the url and add our ajax request to our history
+				History.pushState(null, jsUcfirst( href ), 'index.php?route=' + href);
+				// change the url and add our ajax request to our history
 			}
 			readyCarousel();
-			// readyTree();
 			readyPortChecker();
 			loadHome();
 			readyTabs();
 			alignElements();
+			highlightMenu( href );
 			if ( href == 'home' ) {
 				video = document.querySelector('.home-video');
 				let b = setInterval(() => {
 					if( video.readyState === 4 ) {
 						$('#preloader').hide();
-						// $('.lds-hourglass').hide();
 						clearInterval(b);
 						video.addEventListener('ended', playVideo, false);
 					}
 				}, 500);
 			} else {
 				$('#preloader').hide();
-				// $('.lds-hourglass').hide();
 			}
+		},
+		error: function() {
+			$('#preloader').hide();
 		}
 	});
 }
@@ -293,13 +293,15 @@ function playVideo() {
 
 function ajaxifyApp() {
 	
-	var state = History.getState();
+	let state = History.getState();
 	
 	//for when they click on an ajax link
 	$(document.body).on('click', 'a:not([href^="#"])', function(e) {
-		var $this = $(this);
-		var href = $this.attr('href'); // use the href value to determine what content to ajax in
-		callAjax( directory, href, 'click' );
+		let $this = $(this);
+		let href = $this.attr('href'); // use the href value to determine what content to ajax in
+		let currentPage = getCurrentPage( 'route' );
+		if ( href != currentPage )
+			callAjax( directory, href, 'click' );
 		e.preventDefault(); // we don't want the anchor tag to perform its native function
 	});
 

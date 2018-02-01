@@ -7,7 +7,7 @@
   </div>
   
   <div class="clear"></div>
-  <div  class="fix_header_nav">
+  <!-- <div  class="fix_header_nav">
 		<a href="contact-us" class="cntct_us">Contact Us</a>
 		<div class="fixheader-icons">
 			<a href="#"style=""><i class="fa fa-facebook" style="color:black"></i></a>
@@ -16,7 +16,7 @@
 			"><i class="fa fa-instagram" style="color:black"></i></a>
 			<a href="#"style=""><i class="fa fa-twitter" style="color:black"></i></a>
 		</div>
-  </div>
+  </div> -->
 </header>
      
 <div class="col-md-12 free_tree_main_div" id="free_tree_main_div">

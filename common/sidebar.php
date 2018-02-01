@@ -4,19 +4,6 @@
 		<span class="sidebar-logo-a">
 			<img class="sidebar-logo" src="img/logo/Header_Logo.png" />
 		</span>
-	
-		<!-- <ul>
-			<li><a href="#home">Home</a></li>
-			<li><a href="#news">News</a></li>
-			<li class="dropdown">
-				<a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-				<div class="dropdown-content">
-					<a href="#">Link 1</a>
-					<a href="#">Link 2</a>
-					<a href="#">Link 3</a>
-				</div>
-			</li>
-		</ul> -->
 
 		<ul class="sidenav">
 			<li><a href="home">
@@ -62,6 +49,12 @@
 				<div class="menu-list">
 					<span class="menu-list-title">CONTACT US</span>
 					<div class="header-icon-contact-us img" title="CONTACT US"></div>
+				</div>
+			</a></li>
+			<li><a href="careers">
+				<div class="menu-list">
+					<span class="menu-list-title">CAREERS</span>
+					<div class="header-icon-careers img" title="CAREERS"></div>
 				</div>
 			</a></li>
 		</ul>

@@ -14,13 +14,16 @@ ul {padding: 0;margin: 0;position: relative;}
 .sidenav li:hover ul img {}
 
 .sidenav .menu-list {height: 52px;display: block;border: 1px solid #888;border-radius: 10px;background-color: white;padding: 12px 50px 12px 0;position: relative;}
-.sidenav .menu-list:hover {border: 1px solid white; background-color: #888; }
+.sidenav .menu-list:hover {border: 1px solid white;background-color: #d0d0d0;}
 
 /*.fixed .sidenav .menu-list {border: 1px solid white;background-color: #888;}*/
 /*.fixed .sidenav .menu-list:hover {border: 1px solid #888;background-color: white;}*/
 
 .sidenav .menu-list .menu-list-title {margin: 0 10px;color: black;}
-.sidenav .menu-list:hover .menu-list-title {color: white; }
+.sidenav .menu-list:hover .menu-list-title {color: white;}
+
+.sidenav .menu-list.active {background-color: #007fff;cursor: default;}
+.sidenav .menu-list.active .menu-list-title {color: white;}
 
 /*.fixed .sidenav .menu-list .menu-list-title {margin: 0 10px; color: white; }*/
 /*.fixed .sidenav .menu-list:hover .menu-list-title {color: black; }*/
@@ -39,6 +42,7 @@ ul {padding: 0;margin: 0;position: relative;}
 .header-icon-industries {background-image: url('../img/Industries_Button_Black.png');}
 .header-icon-free-tree {background-image: url('../img/Members_Button_Black.png');}
 .header-icon-contact-us {background-image: url('../img/Contact_Button_Black.png');}
+.header-icon-careers {background-image: url('../img/Careers_Button_Black.png');}
 
 /* Changing icons on hover */
 .sidenav li:hover .header-icon-home {background-image: url('../img/Home_Button_White.png');}
@@ -48,6 +52,7 @@ ul {padding: 0;margin: 0;position: relative;}
 .sidenav li:hover .header-icon-industries {background-image: url('../img/Industries_Button_White.png');}
 .sidenav li:hover .header-icon-free-tree {background-image: url('../img/Members_Button_White.png');}
 .sidenav li:hover .header-icon-contact-us {background-image: url('../img/Contact_Button_White.png');}
+.sidenav li:hover .header-icon-careers {background-image: url('../img/Careers_Button_White.png');}
 /* Without Fixed Ends */
 
 /* Reverse for fixed Starts /

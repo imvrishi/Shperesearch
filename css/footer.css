@@ -16,10 +16,11 @@
 .footer {background-color: #000;overflow: hidden;}
 .footer-items {/* padding: 30px 0; */width: 1200px;overflow: hidden;margin: 10px auto;}
 .footer-items .item {float: left; width: 33%;}
-.footer-items .item > div, .footer-items .item > a {float: left;}
+.footer-items .item > div {float: left;}
+.footer-items .item > a {float: right;}
 .footer-items .item > div.img, .footer-items .item > a.img {width: 50px;}
 .footer-items .item > div.img img {background-color: #303030;border-radius: 0px;padding: 10px;width: 43px;height: 40px;}
-.footer-items .item > a.img span {display: block;background-position: center;background-size: contain;background-repeat: no-repeat;width: 43px;height: 40px;}
+.footer-items .item > a.img span {display: block;background-position: center;background-size: contain;background-repeat: no-repeat;width: 43px;height: 40px;transition: background-image;transition-duration: 0.5s;transition-timing-function: ease-in-out;}
 
 /* Social Icons Start */
 .footer-items .item > a.img span#social-in {background-image: url(../img/Linkedin_Button_Grey.png);}

@@ -9,6 +9,8 @@ body { font-family: "Cabin", -apple-system, BlinkMacSystemFont, "Segoe UI", Robo
 #body-container {max-width: 1200px;height: auto;margin: auto;}
 .font-segoe { font-family: "Segoe UI"; }
 
+#panel {background-color: #f6f6f6;}
+
 a { text-decoration: none; color: #FFFFFF; }
 a:hover { text-decoration: none; }
 
@@ -68,8 +70,8 @@ a:hover { text-decoration: none; }
 .why-choose-us-wrapper {width: 1200px;margin: auto;}
 .why-choose-us h2 { font-weight: 600; font-size: 2.8em; line-height: 1em; }
 .why-choose-us-slider { margin-top: 90px; }
-.why-choose-us-slider .item h4 { font-style: italic; margin-top: 20px; }
-.why-choose-us-slider .item .item-content-info { color: #0ab6d1; margin-top: 20px; font-size: 1.35em; font-style: normal; font-weight: 600; }
+.why-choose-us-slider .item h4 {font-style: italic;margin-top: 20px;color: #0ab6d1;}
+.why-choose-us-slider .item .item-content-info {margin-top: 20px;font-size: 1.35em;font-style: normal;font-weight: 600;}
 .why-choose-us-slider .item img { width: 140px; margin: auto; }
 .fa-star { color: #D8D812; }
 
