@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"tra",
+				"transition-duration"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"border-",
+				"border-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"remo",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"side",
+				"sidenav\t(header.php)"
+			],
+			[
+				"pos",
+				"pos-r\tposition: relative;"
+			],
+			[
 				"back",
 				"background"
 			],
@@ -126,10 +154,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"remo",
-				"removeAttr\t.removeAttr()"
 			],
 			[
 				"parse",
@@ -368,10 +392,6 @@
 				"uppercase\t(profile.php)"
 			],
 			[
-				"text",
-				"text-transform\t(profile.php)"
-			],
-			[
 				"orgC",
 				"orgCodeRules"
 			],
@@ -544,20 +564,24 @@
 	"file_history":
 	[
 		"/D/Project/spheresearch/css/footer.css",
+		"/D/Project/spheresearch/css/free_tree.css",
+		"/D/Project/spheresearch/page/free-tree.php",
+		"/D/Project/spheresearch/js/header.js",
+		"/D/Project/spheresearch/common/header.php",
+		"/D/Project/spheresearch/css/contact-us.css",
+		"/D/Project/spheresearch/common/sidebar.php",
+		"/D/Project/spheresearch/css/sidebar.css",
+		"/D/Project/spheresearch/page/contact-us.php",
+		"/D/Project/spheresearch/page/careers.php",
+		"/D/Project/spheresearch/css/careers.css",
 		"/D/Project/spheresearch/common/newsletter.php",
 		"/D/Project/spheresearch/page/home.php",
-		"/D/Project/spheresearch/css/sidebar.css",
 		"/D/Project/spheresearch/css/home.css",
 		"/D/Project/spheresearch/css/header.css",
 		"/D/Project/spheresearch/common/whychooseus.php",
-		"/D/Project/spheresearch/common/sidebar.php",
 		"/D/Project/spheresearch/page/quantitative.php",
 		"/D/Project/spheresearch/page/qualitative.php",
 		"/D/Project/spheresearch/common/footer.php",
-		"/D/Project/spheresearch/common/header.php",
-		"/D/Project/spheresearch/js/header.js",
-		"/D/Project/spheresearch/css/free_tree.css",
-		"/D/Project/spheresearch/css/contact-us.css",
 		"/D/Project/spheresearch/css/services.css",
 		"/D/Project/spheresearch/css/industries.css",
 		"/D/Project/spheresearch/Albedo_Wordpress_Theme/albedo/rtl.css",
@@ -666,11 +690,7 @@
 		"/D/Project/gap_v2_local/application/models/leaveMngt/leavetypedtl_m.php",
 		"/D/Project/gap_v2_local/application/views/dashboard/block_menu_v.php",
 		"/D/Project/gap_v2_local/application/config/database.php",
-		"/D/Project/gap_v2_local/mydev_gap_data_051217.sql",
-		"/D/Project/gap_v2_local/mydev_gap_structure_051217.sql",
-		"/D/Project/gap_v2_local/sftp-config.json",
-		"/C/Users/Inspire/Dropbox/Changes.info",
-		"/D/Project/gap_v2_local/application/views/include/viewPermissionDtl_v.php"
+		"/D/Project/gap_v2_local/mydev_gap_data_051217.sql"
 	],
 	"find":
 	{
@@ -689,6 +709,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"readyTabs",
+			"alignElements",
+			"readyTree",
 			"1010px",
 			"readySlick",
 			"background-size: cover;",
@@ -802,7 +825,7 @@
 		[
 			[
 				"",
-				"D:\\Project\\bitstock\\bitstock.sublime-project"
+				"D:\\Project\\gap_v2_local\\gap_v2_local.sublime-project"
 			]
 		],
 		"width": 380.0
