@@ -1,3 +1,4 @@
+<div class="empty-header"></div>
 <div class ="main_div" style="">
 	<div class="row">
 		<div class="col-md-12">
@@ -52,3 +53,5 @@
 		</div>
 	</div>
 </div>
+
+<?php include( '../common/whychooseus.php' ); ?>

@@ -208,6 +208,17 @@ function readyTabs() {
 	
 	$( ".home-expertise-info" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
     $( ".home-expertise-info li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+
+    $('.table-tab-a').click(function(event) {
+    	
+    	let target = $(this).attr('data-target');
+    	$(this).siblings('a').each(function(index, el) {
+    		let starget = $(this).attr('data-target');
+    		$(starget).hide();
+    	});
+    	$(target).show();
+    });
+    $('[data-target=".india"]').trigger('click');
 }
 
 function load() {
@@ -219,7 +230,7 @@ function alignElements() {
 	let screenWidth = $( window ).width();
 	let containerWidth = 1200;
 	let left = ( containerWidth - screenWidth ) / 2;
-	$('.home-banner video, .service-top-banner, .header-banner, .meeting-img, .career-img').css('left', left).css('width', screenWidth);
+	$('.home-banner video, .service-top-banner').css('left', left).css('width', screenWidth);
 }
 
 function highlightMenu( href ) {

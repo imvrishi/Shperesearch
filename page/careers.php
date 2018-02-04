@@ -7,22 +7,36 @@
 				<h3 class="career-title">CURRENT JOB OPPORTUNITIES</h3>
 				
 				<div class="table-wrapper">
-					<div class="table-header">
+					<div class="table-tabs">
+						<a href="#" data-target=".india" class="table-tab-a">
+							<div class="table-tab">India</div>
+						</a>
+						<a href="#" data-target=".uk" class="table-tab-a">
+							<div class="table-tab">United Kingdom</div>
+						</a>
+					</div>
+
+					<!-- India -->
+					<div class="table-header india">
 						<div class="table-row">
-							<div class="table-data">Date</div>
 							<div class="table-data">Hiring for</div>
 						</div>
 					</div>
-					<div class="table-body">
+					<div class="table-body india">
 						<div class="table-row">
-							<div class="table-data">Jan 2018</div>
-							<div class="table-data">Senior Research Analyst</div>
-							<div class="table-data"><a href="#">More →</a></div>
+							<div class="table-data">Business Development Manager</div>
+							<div class="table-data"><a href="contact-us">More →</a></div>
 						</div>
 						<div class="table-row">
-							<div class="table-data">Jan 2018</div>
-							<div class="table-data">Business Development Manager</div>
-							<div class="table-data"><a href="#">More →</a></div>
+							<div class="table-data">Senior Research Analyst</div>
+							<div class="table-data"><a href="contact-us">More →</a></div>
+						</div>
+					</div>
+
+					<!-- UK -->
+					<div class="table-header uk">
+						<div class="table-row">
+							<div class="table-data">Keep me informed</div>
 						</div>
 					</div>
 				</div>

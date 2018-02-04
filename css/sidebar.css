@@ -7,7 +7,7 @@ ul {padding: 0;margin: 0;position: relative;}
 .sidenav {float: right;top: 50%;transform: translateY(-50%);}
 .sidenav > li {float: left;margin: auto 5px;}
 .sidenav li {transition: all 0.3s;height: 100%;list-style: none;}
-.sidenav li:hover, .sidenav li:active { color: #0ab6d1; }
+.sidenav li:hover, .sidenav li:active { color: #007fff; }
 .sidenav ul {position: absolute;padding-bottom: 10px;visibility: hidden;opacity: 0;transition: visibility 0s, opacity 0.5s linear;}
 .sidenav ul li {padding-top: 10px;}
 .sidenav li:hover ul {top: 100%;z-index: 2;visibility: visible;opacity: 1;}
@@ -22,7 +22,7 @@ ul {padding: 0;margin: 0;position: relative;}
 .sidenav .menu-list .menu-list-title {margin: 0 10px;color: black;}
 .sidenav .menu-list:hover .menu-list-title {color: white;}
 
-.sidenav .menu-list.active {background-color: #007fff;cursor: default;}
+.sidenav .menu-list.active {background-color: #007fff;cursor: default;border-color: black;}
 .sidenav .menu-list.active .menu-list-title {color: white;}
 
 /*.fixed .sidenav .menu-list .menu-list-title {margin: 0 10px; color: white; }*/
@@ -55,25 +55,15 @@ ul {padding: 0;margin: 0;position: relative;}
 .sidenav li:hover .header-icon-careers {background-image: url('../img/Careers_Button_White.png');}
 /* Without Fixed Ends */
 
-/* Reverse for fixed Starts /
-/* Icons /
-.fixed .header-icon-home {background-image: url('../img/Home_Button_Black.png');}
-.fixed .header-icon-services {background-image: url('../img/Services_Button_Black.png');}
-.fixed .header-icon-qualitative {background-image: url('../img/Qualitative_Button_Black.png');}
-.fixed .header-icon-quantitative {background-image: url('../img/Quantitative_Button_Black.png');}
-.fixed .header-icon-industries {background-image: url('../img/Industries_Button_Black.png');}
-.fixed .header-icon-free-tree {background-image: url('../img/Members_Button_Black.png');}
-.fixed .header-icon-contact-us {background-image: url('../img/Contact_Button_Black.png');}
-
-/* Changing icons on hover /
-.fixed .sidenav li:hover .header-icon-home {background-image: url('../img/Home_Button_White.png');}
-.fixed .sidenav li:hover .header-icon-services {background-image: url('../img/Services_Button_White.png');}
-.fixed .sidenav ul li:hover .header-icon-qualitative {background-image: url('../img/Qualitative_Button_White.png');}
-.fixed .sidenav ul li:hover .header-icon-quantitative {background-image: url('../img/Quantitative_Button_White.png');}
-.fixed .sidenav li:hover .header-icon-industries {background-image: url('../img/Industries_Button_White.png');}
-.fixed .sidenav li:hover .header-icon-free-tree {background-image: url('../img/Members_Button_White.png');}
-.fixed .sidenav li:hover .header-icon-contact-us {background-image: url('../img/Contact_Button_White.png');}
-/* Reverse for fixed Ends */
+/* Active Icons */
+.menu-list.active .header-icon-home {background-image: url('../img/Home_Button_White.png');}
+.menu-list.active .header-icon-services {background-image: url('../img/Services_Button_White.png');}
+.menu-list.active .header-icon-qualitative {background-image: url('../img/Qualitative_Button_White.png');}
+.menu-list.active .header-icon-quantitative {background-image: url('../img/Quantitative_Button_White.png');}
+.menu-list.active .header-icon-industries {background-image: url('../img/Industries_Button_White.png');}
+.menu-list.active .header-icon-free-tree {background-image: url('../img/Members_Button_White.png');}
+.menu-list.active .header-icon-contact-us {background-image: url('../img/Contact_Button_White.png');}
+.menu-list.active .header-icon-careers {background-image: url('../img/Careers_Button_White.png');}
 
 @media screen and (max-height: 450px) {
 	.sidenav a { font-size: 18px; }

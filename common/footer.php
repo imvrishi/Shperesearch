@@ -29,10 +29,10 @@
 						</div>
 					</div>
 					<div class="item" style="width: 20%;">
-						<a href="#" class="img"><span id="social-in"></span></a>
-						<a href="#" class="img"><span id="social-fb"></span></a>
-						<a href="#" class="img"><span id="social-gp"></span></a>
 						<a href="#" class="img"><span id="social-tw"></span></a>
+						<a href="#" class="img"><span id="social-gp"></span></a>
+						<a href="#" class="img"><span id="social-fb"></span></a>
+						<a href="#" class="img"><span id="social-in"></span></a>
 					</div>
 				</div>
 			</div>

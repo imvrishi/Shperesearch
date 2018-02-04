@@ -23,6 +23,17 @@
 		<div class="home-about-us-left col-sm-6 col-xs-12 pull-left">
 			<p>Spheresearch is a research and management consultancy to some of the leading research, data and insights businesses in worldwide markets. We specialize in services for qualitative and quantitative research. For the benefit of our clients, we offer the breadth of knowledge, techniques and expertise to discover comprehensive solutions to the next advancement. Our approach combines skill and will harmoniously to grow from the most demanding challenges.</p>
 			<p>We go beyond the apparent – with intelligence, desire and creativity – to find new directions, set strategies and plan actions that instigate astonishing success.</p>
+			<p>We undertake any specific stage of the market research process:</p>
+			<ul>
+				<li>Design or adjustment of survey instruments</li>
+				<li>Recruitment of respondents, sampling</li>
+				<li>Interviews or moderation, data collection</li>
+				<li>Data cleansing or data analysis</li>
+				<li>Translation into local languages</li>
+				<li>Interview transcription</li>
+				<li>Reporting (top-line or full reports)</li>
+				<li>Providing facilities for different types of research</li>
+			</ul>
 		</div>
 		<div class="home-about-us-right col-sm-6 col-xs-12 pull-right">
 			<p>Our forte lies in the unparalleled diversity of our people, methodologies, specializations and perspectives that flawlessly fuse to give us a unique and complete understanding of markets across the globe.</p>
@@ -34,6 +45,16 @@
 <div id="home-expertise" class="home-expertise">
 	<div class="simple-line"></div>
 	<h1>Our Expertise</h1>
+	<div class="home-expertise-content">
+		<ul>
+			<li>We are able to recruit respondents on a very short notice – even within 24 hours.</li>
+			<li>We have experience in recruiting hard to get to respondents, i.e. specialist in a niche field, patients with a rare disease, hospital directors and even C level executives.</li>
+			<li>We are able to field both quantitative and qualitative projects according to your requirements while bringing our methodological competence.</li>
+			<li>We collaborate on an ongoing basis with a number of proven local research agencies in the countries covered with our fieldwork services. We know which agency specializes in what field, thus we employ verified partners.</li>
+			<li>Our primary focus is in the area of US, UK and Europe but we are also capable of conducting research in Middle East and other countries.</li>
+			<li>Our project managers are experienced in managing multi-country research projects, which saves you time and effort.</li>
+		</ul>
+	</div>
 	<div class="home-expertise-info">
 		<ul>
 			<li><a href="#tabs-1">Surveys</a></li>

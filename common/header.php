@@ -57,7 +57,7 @@
 					</ul>
 				</li>
 				<li><a href="industries">INDUSTRIES</a></li>
-				<li><a href="free-tree">FREE TREE</a></li>
+				<li><a href="associate">ASSOCIATE</a></li>
 				<li><a href="contact-us">CONTACT US</a></li>
 			</ul>
 		</nav>

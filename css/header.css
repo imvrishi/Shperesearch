@@ -70,14 +70,14 @@ a:hover { text-decoration: none; }
 .why-choose-us-wrapper {width: 1200px;margin: auto;}
 .why-choose-us h2 { font-weight: 600; font-size: 2.8em; line-height: 1em; }
 .why-choose-us-slider { margin-top: 90px; }
-.why-choose-us-slider .item h4 {font-style: italic;margin-top: 20px;color: #0ab6d1;}
+.why-choose-us-slider .item h4 {font-style: italic;margin-top: 20px;color: #007fff;}
 .why-choose-us-slider .item .item-content-info {margin-top: 20px;font-size: 1.35em;font-style: normal;font-weight: 600;}
 .why-choose-us-slider .item img { width: 140px; margin: auto; }
 .fa-star { color: #D8D812; }
 
 .slick-dots li { width: 30px; height: 5px; }
 .slick-dots li a{ width: 30px; height: 5px; background-color: #fff; display: block; }
-.slick-dots li.slick-active a { background-color: #0ab6d1; }
+.slick-dots li.slick-active a { background-color: #007fff; }
 
 .service-top-banner {background-image: url(../img/Services.jpg);background-position: center;background-size: cover;background-repeat: no-repeat;padding: 20vh 0 70px 0;text-align: center;min-height: 100vh;position: relative;}
 .service-top-text {width: 1200px;margin: 0 auto;}
@@ -112,3 +112,5 @@ a:hover { text-decoration: none; }
 .line-spin-fade-loader > div:nth-child(7) {top: 0; left: -20px; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); -webkit-animation: line-spin-fade-loader 1.2s 0.84s infinite ease-in-out; animation: line-spin-fade-loader 1.2s 0.84s infinite ease-in-out; }
 .line-spin-fade-loader > div:nth-child(8) {top: 13.63636px; left: -13.63636px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); -webkit-animation: line-spin-fade-loader 1.2s 0.96s infinite ease-in-out; animation: line-spin-fade-loader 1.2s 0.96s infinite ease-in-out; }
 .line-spin-fade-loader > div {width: 4px; height: 35px; border-radius: 2px; margin: 2px; -webkit-animation-fill-mode: both; animation-fill-mode: both; position: absolute; width: 5px; height: 15px; }
+
+.empty-header {height: 100px;width: 100%;background: transparent;}

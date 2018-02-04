@@ -39,22 +39,22 @@
 					<div class="header-icon-industries img" title="INDUSTRIES"></div>
 				</div>
 			</a></li>
-			<li><a href="free-tree">
+			<li><a href="associate">
 				<div class="menu-list">
 					<span class="menu-list-title">ASSOCIATE</span>
 					<div class="header-icon-free-tree img" title="ASSOCIATE"></div>
-				</div>
-			</a></li>
-			<li><a href="contact-us">
-				<div class="menu-list">
-					<span class="menu-list-title">CONTACT US</span>
-					<div class="header-icon-contact-us img" title="CONTACT US"></div>
 				</div>
 			</a></li>
 			<li><a href="careers">
 				<div class="menu-list">
 					<span class="menu-list-title">CAREERS</span>
 					<div class="header-icon-careers img" title="CAREERS"></div>
+				</div>
+			</a></li>
+			<li><a href="contact-us">
+				<div class="menu-list">
+					<span class="menu-list-title">CONTACT US</span>
+					<div class="header-icon-contact-us img" title="CONTACT US"></div>
 				</div>
 			</a></li>
 		</ul>
