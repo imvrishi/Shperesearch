@@ -3,8 +3,6 @@
 	<div class="meeting-container">
 		<div class="row">
 
-			<div id="map"></div>
-
 			<div class="col-sm-9">
 				<h3 class="meeting-title">We Are Eager To Hear From You</h3>
 				<div class="simple_line contacted"></div>
@@ -14,7 +12,7 @@
 					<input type="text" class="col-sm-4 contact-form-name col-sm-4" name="contact-form-name" id="contact-form-name" placeholder="Name (required)">
 					<input type="text" class="col-sm-4 contact-form-email col-sm-4" name="contact-form-email" id="contact-form-email" placeholder="Email (required)">
 					<input type="text" class="col-sm-4 contact-form-subject col-sm-4" name="contact-form-subject" id="contact-form-subject" placeholder="Subject">
-					<div id="contact-form-submit" class="contact-form-submit1 "><a href="#" data-alt-text="Send Message →" class="btnsub">Send Message →</a></div>
+					<div id="contact-form-submit" class="contact-form-submit"><a href="#" data-alt-text="Send Message →" class="btnsub">Send Message →</a></div>
 				</form>
 				<br/><br/>
 			</div>
@@ -22,19 +20,17 @@
 				<h3 class="meeting-title">Address</h3>
 				<div class="simple_line contacted"></div>
 				<div class="address-desc">
-					Headquarters for ASIA region:
-					Mumbai, Thane, India.
-					<br/><br/>
-					Headquarters Latin America:
-					Satélite, Mexico City, México.
+					<p>Headquarters:<br/>5/203, Sadguru Complex, Beverly Park, Mumbai 401107, India.</p>
+					<p>UK Office:<br/>2 Greenway Garden, London, NW3 7DJ.</p>
 				</div>
 				<br/>
 				<h3 class="meeting-title">Our email</h3>
-				info@agapemr.com
-				<br/>
-				support@agapemr.com
+				hello@spheresearch.com
 				<br/><br/><br/><br/><br/>
 			</div>
+
+			<div id="map"></div>
+
 		</div>
 	</div>
 </div>

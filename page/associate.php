@@ -20,7 +20,11 @@
 </header>
      
 <div class="col-md-12 free_tree_main_div" id="free_tree_main_div">
-		<div class="col-md-2" style="float:left" >
+		
+		<div style="text-align: center;">
+			<a href="contact-us" style="color: #007fff;">Update Me</a>
+		</div>
+		<!-- <div class="col-md-2" style="float:left" >
 		</div>
 		<div class="col-md-8" style="float:left">
 			<p class="first_para" id="first_para">Wolf vinyl hella, jean shorts disrupt skateboard master cleanse hashtag iPhone. Pop-up bicycle rights Brooklyn iPhone Helvetica kitsch Godard, XOXO blog aesthetic beard quinoa. Fixie kale chips PBR&B twee, YOLO raw denim before they sold out photo booth bespoke seitan food truck. Ethical chia before they sold out, trust fund viral ennui you probably haven't heard of them cred bitters mixtape semiotics deep v jean shorts pork belly occupy shabby chic sriracha ethnic normcore bicycle rights single-origin coffee slow-carb jean shorts. Twee ethnic mumblecore, Carles banh mi slow-carb pour-over organic. Ethical tofu narwhal, hoodie viral ennui tousled paleo. Butcher chia cray iPhone keytar, sustainable Cosby sweater literally try-hard put a bird on it photo booth ethical street art literally semiotics.</p>
@@ -37,8 +41,7 @@
 			</div>
 		</div><br><br>
 		<div class="col-md-12 free_tree_second_div ">
-			<div class="col-md-2" style="float:left">
-			</div>
+			<div class="col-md-2" style="float:left"></div>
 			<div class="col-md-6" style="float:left">
 				<h1 class="heading_bot">Free-Tree concept</h1>
 				<ul type="disc">
@@ -48,9 +51,8 @@
 						 <li>Presence almost across the globe.</li><br>            
 				</ul>
 			</div>
-		<div class="col-md-4" style="float:left">
-		</div>   
-	</div>
+		<div class="col-md-4" style="float:left"></div>   
+		</div>
 		<div class="col-md-12 free_tree_third_div ">
 			<div class="col-md-2" style="float:left">
 			</div>
@@ -69,6 +71,6 @@
 			</div>
 		<div class="col-md-2" style="float:left">
 		</div>   
-	</div>
+	</div> -->
 </div>
 </section>

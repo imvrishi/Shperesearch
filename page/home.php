@@ -23,6 +23,13 @@
 		<div class="home-about-us-left col-sm-6 col-xs-12 pull-left">
 			<p>Spheresearch is a research and management consultancy to some of the leading research, data and insights businesses in worldwide markets. We specialize in services for qualitative and quantitative research. For the benefit of our clients, we offer the breadth of knowledge, techniques and expertise to discover comprehensive solutions to the next advancement. Our approach combines skill and will harmoniously to grow from the most demanding challenges.</p>
 			<p>We go beyond the apparent – with intelligence, desire and creativity – to find new directions, set strategies and plan actions that instigate astonishing success.</p>
+		</div>
+		<div class="home-about-us-right col-sm-6 col-xs-12 pull-right">
+			<p>Our forte lies in the unparalleled diversity of our people, methodologies, specializations and perspectives that flawlessly fuse to give us a unique and complete understanding of markets across the globe.</p>
+			<p>We are inspired by the potential and driven by the possibilities in insights, to accelerate achievements. We are committed to deliver solutions that enable life to revolutionize with confidence, substance, opportunities, and ultimately, with simplicity that makes our complex world faster to make the best possible decisions.</p>
+		</div>
+		<div style="clear: both;"></div><br/>
+		<div class="row we-undertake">
 			<p>We undertake any specific stage of the market research process:</p>
 			<ul>
 				<li>Design or adjustment of survey instruments</li>
@@ -34,10 +41,6 @@
 				<li>Reporting (top-line or full reports)</li>
 				<li>Providing facilities for different types of research</li>
 			</ul>
-		</div>
-		<div class="home-about-us-right col-sm-6 col-xs-12 pull-right">
-			<p>Our forte lies in the unparalleled diversity of our people, methodologies, specializations and perspectives that flawlessly fuse to give us a unique and complete understanding of markets across the globe.</p>
-			<p>We are inspired by the potential and driven by the possibilities in insights, to accelerate achievements. We are committed to deliver solutions that enable life to revolutionize with confidence, substance, opportunities, and ultimately, with simplicity that makes our complex world faster to make the best possible decisions.</p>
 		</div>
 	</div>
 </div>

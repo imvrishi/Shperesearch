@@ -34,9 +34,10 @@
 					</div>
 
 					<!-- UK -->
-					<div class="table-header uk">
+					<div class="table-body uk">
 						<div class="table-row">
 							<div class="table-data">Keep me informed</div>
+							<div class="table-data"><a href="contact-us">More →</a></div>
 						</div>
 					</div>
 				</div>

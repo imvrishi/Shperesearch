@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"tab",
+				"table-tab"
+			],
+			[
 				"tr",
 				"transparent"
 			],
@@ -499,131 +507,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "css/header.css",
-			"settings":
-			{
-				"buffer_size": 13744,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/sidebar.css",
-			"settings":
-			{
-				"buffer_size": 5449,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "common/sidebar.php",
-			"settings":
-			{
-				"buffer_size": 1956,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "common/header.php",
-			"settings":
-			{
-				"buffer_size": 4315,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "page/contact-us.php",
-			"settings":
-			{
-				"buffer_size": 1859,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "page/home.php",
-			"settings":
-			{
-				"buffer_size": 7846,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/home.css",
-			"settings":
-			{
-				"buffer_size": 4206,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "common/whychooseus.php",
-			"settings":
-			{
-				"buffer_size": 2763,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/footer.css",
-			"settings":
-			{
-				"buffer_size": 4254,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "page/qualitative.php",
-			"settings":
-			{
-				"buffer_size": 4383,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "page/quantitative.php",
-			"settings":
-			{
-				"buffer_size": 3590,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "common/footer.php",
-			"settings":
-			{
-				"buffer_size": 2388,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "page/industries.php",
-			"settings":
-			{
-				"buffer_size": 2017,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "page/associate.php",
-			"settings":
-			{
-				"buffer_size": 3510,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -688,34 +571,33 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Project/spheresearch",
-		"/D/Project/spheresearch/common",
-		"/D/Project/spheresearch/js",
-		"/D/Project/spheresearch/page"
+		"/D/Project/spheresearch"
 	],
 	"file_history":
 	[
+		"/D/Project/spheresearch/css/industries.css",
+		"/D/Project/spheresearch/page/industries.php",
+		"/D/Project/spheresearch/page/careers.php",
 		"/D/Project/spheresearch/css/careers.css",
+		"/D/Project/spheresearch/page/contact-us.php",
 		"/D/Project/spheresearch/css/contact-us.css",
 		"/D/Project/spheresearch/css/free_tree.css",
-		"/D/Project/spheresearch/page/free-tree.php",
-		"/D/Project/spheresearch/css/footer.css",
-		"/D/Project/spheresearch/js/header.js",
-		"/D/Project/spheresearch/common/header.php",
-		"/D/Project/spheresearch/common/sidebar.php",
-		"/D/Project/spheresearch/css/sidebar.css",
-		"/D/Project/spheresearch/page/contact-us.php",
-		"/D/Project/spheresearch/page/careers.php",
-		"/D/Project/spheresearch/common/newsletter.php",
-		"/D/Project/spheresearch/page/home.php",
-		"/D/Project/spheresearch/css/home.css",
-		"/D/Project/spheresearch/css/header.css",
-		"/D/Project/spheresearch/common/whychooseus.php",
+		"/D/Project/spheresearch/page/associate.php",
 		"/D/Project/spheresearch/page/quantitative.php",
 		"/D/Project/spheresearch/page/qualitative.php",
-		"/D/Project/spheresearch/common/footer.php",
 		"/D/Project/spheresearch/css/services.css",
-		"/D/Project/spheresearch/css/industries.css",
+		"/D/Project/spheresearch/common/newsletter.php",
+		"/D/Project/spheresearch/css/footer.css",
+		"/D/Project/spheresearch/common/whychooseus.php",
+		"/D/Project/spheresearch/css/header.css",
+		"/D/Project/spheresearch/css/home.css",
+		"/D/Project/spheresearch/page/home.php",
+		"/D/Project/spheresearch/common/header.php",
+		"/D/Project/spheresearch/js/header.js",
+		"/D/Project/spheresearch/css/sidebar.css",
+		"/D/Project/spheresearch/common/footer.php",
+		"/D/Project/spheresearch/common/sidebar.php",
+		"/D/Project/spheresearch/page/free-tree.php",
 		"/D/Project/spheresearch/Albedo_Wordpress_Theme/albedo/rtl.css",
 		"/D/Project/bitstock/application/core/MY_Controller.php",
 		"/D/Project/bitstock/assets/js/credit/credit.js",
@@ -820,9 +702,7 @@
 		"/D/Project/gap_v2_local/system/libraries/Session.php",
 		"/D/Project/gap_v2_local/application/controllers/leaveMngt/leavetypedtl.php",
 		"/D/Project/gap_v2_local/application/models/leaveMngt/leavetypedtl_m.php",
-		"/D/Project/gap_v2_local/application/views/dashboard/block_menu_v.php",
-		"/D/Project/gap_v2_local/application/config/database.php",
-		"/D/Project/gap_v2_local/mydev_gap_data_051217.sql"
+		"/D/Project/gap_v2_local/application/views/dashboard/block_menu_v.php"
 	],
 	"find":
 	{
@@ -841,6 +721,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">\n",
+			"work",
+			"we un",
+			"#0ab6d1",
 			"home-expertise",
 			"home-about-us",
 			"readyTabs",
@@ -861,6 +745,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"#007fff",
 			"1200px",
 			"readyCarousel",
 			"",
@@ -875,467 +760,8 @@
 	"groups":
 	[
 		{
-			"selected": 8,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "css/header.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13744,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13743,
-								13743
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3830.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/sidebar.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5449,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1630,
-								1630
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 298.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "common/sidebar.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1956,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1333,
-								1333
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 610.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "common/header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4315,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4236,
-								4236
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "page/contact-us.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1859,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1256,
-								1256
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 60.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "page/home.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7846,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7375,
-								7375
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2620.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "css/home.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4206,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2491,
-								2491
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 420.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "common/whychooseus.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2763,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1274,
-								1274
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "css/footer.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4254,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								865,
-								865
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "page/qualitative.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4383,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								985,
-								985
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "page/quantitative.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3590,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1050,
-								1050
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "common/footer.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2388,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1295,
-								1295
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 300.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "page/industries.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2017,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2017,
-								2017
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 900.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "page/associate.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3510,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								748,
-								748
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1398,7 +824,7 @@
 	"project": "spheresearch.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 75.0
 	},
 	"save_all_on_build": true,
 	"select_file":

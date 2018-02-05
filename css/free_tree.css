@@ -1,6 +1,6 @@
 .trip{width:100%; }
 .cntct_us{margin-left: 318px; position: absolute; margin-top: 1%; color: #191919; }
-.free_tree_main_div{z-index:-1; padding: 90px 5% 70px 5%; overflow: hidden; }
+.free_tree_main_div{/* z-index:-1; */padding: 40px 5% 40px 5%;overflow: hidden;}
 .down-arrow-free-tree {position: relative; bottom: 0px; left: 0; top: 85%; color: white; width: 100%; text-align: center; }
 
 .first_para{font-size: 19px; color: #191919; }

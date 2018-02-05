@@ -4,7 +4,7 @@
 .footer_heading{color:white; }
 .form_lbl{color:white; }
 .form_inpt_box {width:100%;height: 40px;background-color: transparent;color: #eaeaea;border: 1px solid #e8e8e8;border-color: rgba(234, 234, 234 ,0.2);-webkit-appearance: none;-moz-appearance: none;padding: 12px 14px;-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none;transition-property: border-color,color,background-color;-moz-transition-duration: 0.45s;-o-transition-duration: 0.45s;-webkit-transition-duration: 0.45s;transition-duration: 0.45s;font-size: 0.8em;outline: 0;}
-.form_inpt_box:focus, .form_inpt_box:hover, .form_inpt_box:active {border-color: rgba(10, 182, 209 ,0.65);color: #007fff;}
+.form_inpt_box:focus, .form_inpt_box:hover, .form_inpt_box:active {border-color: #007fff;color: #007fff;}
 .form_btn_div{margin-top:2%; }
 .btnsub {border-color: #007fff;background-color: #007fff;padding: 16px 20px 16px 20px;-moz-transition-property: background-color;-o-transition-property: background-color;-webkit-transition-property: background-color;transition-property: background-color;-moz-transition-duration: 0.45s;-o-transition-duration: 0.45s;-webkit-transition-duration: 0.45s;transition-duration: 0.45s;-moz-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);-o-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);-webkit-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);line-height: 1em;font-size: 0.9em;font-weight: 700;outline: none;cursor: pointer;overflow: hidden;-moz-appearance: none;-webkit-appearance: none;border-width: 0px;color: #FFFFFF;text-transform: uppercase;}
 .btnsub:hover {background-color: #2f2f2f;color: white;}

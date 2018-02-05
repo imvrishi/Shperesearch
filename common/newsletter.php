@@ -5,7 +5,7 @@
 				<h6 class="footer_heading" style="color:white;">LATEST POST</h6>
 				<ul class="footer_post" style="list-style:none">
 					<li>
-						October 8, 2014
+						January 8, 2018
 						<h6>
 							<a href="#/">Stay Focused
 							</a>
@@ -13,7 +13,7 @@
 						<div class="clearfix"></div>
 						<div class="simple_line" style="border-bottom:1px solid grey"></div>
 						<li>
-						<div>October 8, 2014</div>
+						<div>January 15, 2018</div>
 						<h6>
 							<a href="#/">Stay Focused
 							</a>
@@ -21,7 +21,7 @@
 						<div class="clearfix"></div>
 						<div class="simple_line" style="border-bottom:1px solid grey"></div>
 						<li>
-						<div>October 8, 2014</div>
+						<div>January 22, 2018</div>
 						<h6>
 							<a href="#/">Stay Focused
 							</a>
@@ -29,7 +29,7 @@
 						<div class="clearfix"></div>
 						<div class="simple_line" style="border-bottom:1px solid grey"></div>
 						<li>
-						<div>October 8, 2014</div>
+						<div>January 29, 2018</div>
 						<h6>
 							<a href="#/">Stay Focused
 							</a>
