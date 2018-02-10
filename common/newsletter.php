@@ -5,35 +5,23 @@
 				<h6 class="footer_heading" style="color:white;">LATEST POST</h6>
 				<ul class="footer_post" style="list-style:none">
 					<li>
-						January 8, 2018
-						<h6>
-							<a href="#/">Stay Focused
-							</a>
-						</h6>
+						<div class="post-date">January 8, 2018</div>
+						<h6><a href="#/">Stay Focused</a></h6>
 						<div class="clearfix"></div>
 						<div class="simple_line" style="border-bottom:1px solid grey"></div>
 						<li>
-						<div>January 15, 2018</div>
-						<h6>
-							<a href="#/">Stay Focused
-							</a>
-						</h6>
+						<div class="post-date">January 15, 2018</div>
+						<h6><a href="#/">Stay Focused</a></h6>
 						<div class="clearfix"></div>
 						<div class="simple_line" style="border-bottom:1px solid grey"></div>
 						<li>
-						<div>January 22, 2018</div>
-						<h6>
-							<a href="#/">Stay Focused
-							</a>
-						</h6>
+						<div class="post-date">January 22, 2018</div>
+						<h6><a href="#/">Stay Focused</a></h6>
 						<div class="clearfix"></div>
 						<div class="simple_line" style="border-bottom:1px solid grey"></div>
 						<li>
-						<div>January 29, 2018</div>
-						<h6>
-							<a href="#/">Stay Focused
-							</a>
-						</h6>
+						<div class="post-date">January 29, 2018</div>
+						<h6><a href="#/">Stay Focused</a></h6>
 						<div class="clearfix"></div>
 						<div class="simple_line"></div>
 				</ul>
@@ -57,7 +45,7 @@
 			</div>
 			<div class="col-md-4 footer_para hidden">
 				<h6 class="footer_heading">GET CONNECTED</h6>
-				<p>Follow us on social media</p>
+				<p class="follow">Follow us on social media</p>
 				<div class="icons">
 					<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
 					<a href="#" class="facebook" style="padding: 2px 5px 2px 5px;"><i class="fa fa-facebook"></i></a>

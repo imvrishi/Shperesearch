@@ -7,7 +7,7 @@
 				<div class="item-content">
 					<h4>"Precision & Timely Delivery"</h4>
 					<div class="item-content-info">
-						Our main objective is to offer information / data / estimates with accuracy, which conform to facts in detail of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;work.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Our main objective is to offer information / data / estimates with accuracy, which conform to facts in detail of work.
 					</div>
 					<div class="item-content-stars">
 						<i class="fa fa-star"></i>
@@ -23,7 +23,7 @@
 				<div class="item-content">
 					<h4>"Quality Control"</h4>
 					<div class="item-content-info">
-						We focus on high-quality products and services in terms of functionality, performance, value suitability and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reliability.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						We focus on high-quality products and services in terms of functionality, performance, value suitability and reliability.
 					</div>
 					<div class="item-content-stars">
 						<i class="fa fa-star"></i>

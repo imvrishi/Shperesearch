@@ -1,3 +1,4 @@
+<div class="service-top-banner-img"><img src="img/Services.jpg" alt="Quantitative" class="customZoom" /></div>
 <div class="service-top-banner">
 	<div class="service-top-text">
 		<h1 class="service-welcome-text">QUANTITATIVE SERVICES</h1>

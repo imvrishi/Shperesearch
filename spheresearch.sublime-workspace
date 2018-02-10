@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"tr",
+				"transition"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"Nexa-",
+				"Nexa-Book\t(careers.css)"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"zoom",
+				"zoomInOut\t(header.css)"
+			],
+			[
+				"Nexa",
+				"NexaRegular\t(header.css)"
+			],
+			[
+				"pre",
+				"prepend\t.prepend()"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
 				"marg",
 				"margin-bottom"
 			],
@@ -12,16 +44,8 @@
 				"table-tab"
 			],
 			[
-				"tr",
-				"transparent"
-			],
-			[
 				"border",
 				"border-color"
-			],
-			[
-				"tra",
-				"transition-duration"
 			],
 			[
 				"border-",
@@ -162,10 +186,6 @@
 			[
 				"data",
 				"DataTable"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"parse",
@@ -494,19 +514,21 @@
 			[
 				"close",
 				"closest"
-			],
-			[
-				"fu",
-				"fun\tFunction"
-			],
-			[
-				"url",
-				"urldecode"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Users/Inspire/Desktop/ss.txt",
+			"settings":
+			{
+				"buffer_size": 97,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "header footer - smooth transition"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -575,28 +597,31 @@
 	],
 	"file_history":
 	[
-		"/D/Project/spheresearch/css/industries.css",
-		"/D/Project/spheresearch/page/industries.php",
-		"/D/Project/spheresearch/page/careers.php",
-		"/D/Project/spheresearch/css/careers.css",
-		"/D/Project/spheresearch/page/contact-us.php",
-		"/D/Project/spheresearch/css/contact-us.css",
-		"/D/Project/spheresearch/css/free_tree.css",
-		"/D/Project/spheresearch/page/associate.php",
 		"/D/Project/spheresearch/page/quantitative.php",
 		"/D/Project/spheresearch/page/qualitative.php",
-		"/D/Project/spheresearch/css/services.css",
-		"/D/Project/spheresearch/common/newsletter.php",
+		"/D/Project/spheresearch/css/free_tree.css",
 		"/D/Project/spheresearch/css/footer.css",
-		"/D/Project/spheresearch/common/whychooseus.php",
-		"/D/Project/spheresearch/css/header.css",
-		"/D/Project/spheresearch/css/home.css",
-		"/D/Project/spheresearch/page/home.php",
-		"/D/Project/spheresearch/common/header.php",
-		"/D/Project/spheresearch/js/header.js",
+		"/D/Project/spheresearch/css/contact-us.css",
+		"/D/Project/spheresearch/css/careers.css",
 		"/D/Project/spheresearch/css/sidebar.css",
+		"/D/Project/spheresearch/css/services.css",
+		"/D/Project/spheresearch/css/industries.css",
+		"/D/Project/spheresearch/css/home.css",
+		"/D/Project/spheresearch/js/header.js",
+		"/D/Project/spheresearch/css/header.css",
+		"/D/Project/spheresearch/css/owl.theme.green.min.css",
+		"/D/Project/spheresearch/common/newsletter.php",
 		"/D/Project/spheresearch/common/footer.php",
+		"/D/Project/spheresearch/page/home.php",
+		"/D/Project/spheresearch/common/whychooseus.php",
+		"/D/Project/spheresearch/page/industries.php",
+		"/D/Project/spheresearch/page/contact-us.php",
 		"/D/Project/spheresearch/common/sidebar.php",
+		"/D/Project/spheresearch/common/header.php",
+		"/D/Project/spheresearch/css/slideout.css",
+		"/D/Project/spheresearch/index.php",
+		"/D/Project/spheresearch/page/careers.php",
+		"/D/Project/spheresearch/page/associate.php",
 		"/D/Project/spheresearch/page/free-tree.php",
 		"/D/Project/spheresearch/Albedo_Wordpress_Theme/albedo/rtl.css",
 		"/D/Project/bitstock/application/core/MY_Controller.php",
@@ -699,14 +724,11 @@
 		"/D/Project/gap_v2_local/application/controllers/systmMngt/oa_brand_settings.php",
 		"/D/Project/gap_v2_local/sendgrid/lib/helpers/mail/Mail.php",
 		"/D/Project/gap_v2_local/application/models/systmMngt/oa_brands_m.php",
-		"/D/Project/gap_v2_local/system/libraries/Session.php",
-		"/D/Project/gap_v2_local/application/controllers/leaveMngt/leavetypedtl.php",
-		"/D/Project/gap_v2_local/application/models/leaveMngt/leavetypedtl_m.php",
-		"/D/Project/gap_v2_local/application/views/dashboard/block_menu_v.php"
+		"/D/Project/gap_v2_local/system/libraries/Session.php"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -721,6 +743,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"NexaThin",
+			"NexaRegular",
+			"NexaHeavy",
+			"NexaBlack",
+			"NexaHeavy",
+			"NexaBlack",
+			"address-desc",
+			"service-top-banner-img",
+			"color",
+			"line",
+			"#d0d0d0",
+			"#cdd2d7",
+			"#f6f6f6",
+			"#888",
+			"#007fff",
+			"footer_post",
+			"zoomInOut",
 			">\n",
 			"work",
 			"we un",
@@ -745,6 +784,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Nexa-Thin",
+			"Nexa-Regular",
+			"Nexa-Heavy",
+			"Nexa-Black",
+			"#cdd2d7",
+			"#49a5ff",
 			"#007fff",
 			"1200px",
 			"readyCarousel",
@@ -760,8 +805,48 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Inspire/Desktop/ss.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 97,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"auto_name": "header footer - smooth transition",
+							"git_gutter_is_enabled": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"file": "img/Advertising_Media.jpg",
+					"semi_transient": true,
+					"stack_index": 1,
+					"type": "image"
+				}
 			]
 		}
 	],
@@ -824,7 +909,7 @@
 	"project": "spheresearch.sublime-project",
 	"replace":
 	{
-		"height": 75.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

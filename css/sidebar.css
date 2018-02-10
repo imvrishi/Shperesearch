@@ -7,23 +7,23 @@ ul {padding: 0;margin: 0;position: relative;}
 .sidenav {float: right;top: 50%;transform: translateY(-50%);}
 .sidenav > li {float: left;margin: auto 5px;}
 .sidenav li {transition: all 0.3s;height: 100%;list-style: none;}
-.sidenav li:hover, .sidenav li:active { color: #007fff; }
+.sidenav li:hover, .sidenav li:active { color: #49a5ff; }
 .sidenav ul {position: absolute;padding-bottom: 10px;visibility: hidden;opacity: 0;transition: visibility 0s, opacity 0.5s linear;}
 .sidenav ul li {padding-top: 10px;}
 .sidenav li:hover ul {top: 100%;z-index: 2;visibility: visible;opacity: 1;}
 .sidenav li:hover ul img {}
 
-.sidenav .menu-list {height: 52px;display: block;border: 1px solid #888;border-radius: 10px;background-color: white;padding: 12px 50px 12px 0;position: relative;}
-.sidenav .menu-list:hover {border: 1px solid white;background-color: #d0d0d0;}
+.sidenav .menu-list {height: 52px;display: block;border: 1px solid #cdd2d7;border-radius: 10px;background-color: white;padding: 12px 50px 12px 0;position: relative;}
+.sidenav .menu-list:hover {border: 1px solid white;background-color: #cdd2d7;}
 
-/*.fixed .sidenav .menu-list {border: 1px solid white;background-color: #888;}*/
-/*.fixed .sidenav .menu-list:hover {border: 1px solid #888;background-color: white;}*/
+/*.fixed .sidenav .menu-list {border: 1px solid white;background-color: #cdd2d7;}*/
+/*.fixed .sidenav .menu-list:hover {border: 1px solid #cdd2d7;background-color: white;}*/
 
-.sidenav .menu-list .menu-list-title {margin: 0 10px;color: black;}
+.sidenav .menu-list .menu-list-title {margin: 0 10px;color: black;font-family: Nexa-XBold;font-size: 14px;}
 .sidenav .menu-list:hover .menu-list-title {color: white;}
 
-.sidenav .menu-list.active {background-color: #007fff;cursor: default;border-color: black;}
-.sidenav .menu-list.active .menu-list-title {color: white;}
+.sidenav .menu-list.active {background-color: #49a5ff;cursor: default;border-color: black;}
+.sidenav .menu-list.active .menu-list-title {color: white;font-family: Nexa-XBold-Italic;}
 
 /*.fixed .sidenav .menu-list .menu-list-title {margin: 0 10px; color: white; }*/
 /*.fixed .sidenav .menu-list:hover .menu-list-title {color: black; }*/

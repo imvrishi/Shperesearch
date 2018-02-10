@@ -12,28 +12,30 @@ h2.welcome-text { font-weight: 600; }
 .down-arrow i:hover { color: white; }
 
 .home-about-us {text-align: center;padding: 90px 5% 40px 5%;}
-.home-about-us h1 { font-weight: 600; font-size: 3.8em; line-height: 1em; }
-.home-about-us p { font-family: "Segoe UI"; font-size: 18px; }
-.home-about-us .simple-line { width: 70px; height: 6px; background-color: #007fff; margin: 0 auto 20px auto; }
+.home-about-us h1 {font-weight: 600;font-size: 3.8em;line-height: 1em;font-family: Nexa-Heavy;}
+.home-about-us p {font-family: Nexa-Book;font-size: 18px;}
+.home-about-us .simple-line { width: 70px; height: 6px; background-color: #49a5ff; margin: 0 auto 20px auto; }
 .home-about-us-info { overflow: hidden; margin-top: 40px; text-align: left; }
 .home-about-us-left ul {padding: 0 10%;}
 
 .home-expertise {text-align: center;padding: 0 5% 40px 5%;}
-.home-expertise h1 {font-weight: 600;font-size: 3.8em;line-height: 1em;margin-bottom: 40px;}
+.home-expertise h1 {font-weight: 600;font-size: 3.8em;line-height: 1em;margin-bottom: 40px;font-family: Nexa-Heavy;}
 .home-expertise p { font-family: "Segoe UI"; font-size: 18px; }
 .home-expertise .simple-line {width: 90%;margin: 0 auto 20px auto;border-top: 1px solid #d6cece;}
 .home-expertise-info {overflow: hidden;margin: 0 auto;margin-top: 40px;text-align: left;}
 .home-expertise .home-expertise-content {padding: 0 10%;text-align: left;}
+.home-expertise-info .ui-tabs-anchor {font-family: Nexa-Bold-Italic;}
+.home-expertise-info .ui-tabs-panel p {font-family: Nexa-Light;font-size: 16px;}
 
 .ui-tabs-vertical { max-width: 55em;width: 100%; }
 .ui-tabs-vertical .ui-tabs-nav {padding: 0;border: 0;border-radius: 0;float: left;width: 25%;border-bottom: 1px solid #dddddd;}
 .ui-tabs-vertical .ui-tabs-nav li {clear: left;width: 100%;border-radius: 0;background-color: #fff;}
 .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
-.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {background-color: #007fff;border-right-width: 1px;}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {background-color: #49a5ff;border-right-width: 1px;}
 .ui-tabs-vertical .ui-tabs-panel {padding: 1em;float: right;width: 75%;border: 1px solid #dddddd;}
 .ui-widget.ui-widget-content {border: 0;padding: 0;}
 .ui-tabs .ui-tabs-nav li {margin: 0;}
-.ui-tabs-tab.ui-tab:hover {background: #f6f6f6;}
+.ui-tabs-tab.ui-tab:hover {background: #cdd2d7;}
 /*.ui-tabs-tab.ui-tab:hover a {color: #ffffff;}*/
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {width: 100%;}
 
@@ -43,9 +45,13 @@ h2.welcome-text { font-weight: 600; }
 .home-clients-list { display: flex; margin: auto; justify-content: space-evenly; flex-flow: wrap; }
 .home-client-showcase img { padding: 5px; flex-grow: 1; max-width: 154px; max-height: 80px; }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: #007fff;}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: #49a5ff;}
 .owl-theme .owl-dots .owl-dot span {    width: 30px; height: 5px; margin: 5px 7px; background: #D6D6D6; display: block; -webkit-backface-visibility: visible; transition: opacity .2s ease; border-radius: 0; }
 
 
-.row.we-undertake {display: block;width: 600px;margin: 0 auto 0 auto;}
-.row.we-undertake ul {width: 100%; margin-left: 145px; }
+.row.we-undertake {display: block;width: 600px;/* margin: 0 auto 0 auto; */position: relative;left: 55%;transform: translateX(-50%);}
+.row.we-undertake ul {width: 100%;margin-left: 105px;}
+.row.we-undertake p {font-family: Nexa-Bold;}
+.row.we-undertake ul li {font-family: Nexa-Light;}
+
+.home-expertise-content li {font-family: Nexa-Light;}

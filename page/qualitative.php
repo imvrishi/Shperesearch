@@ -1,3 +1,4 @@
+<div class="service-top-banner-img"><img src="img/Services.jpg" alt="Qualitative" class="customZoom" /></div>
 <div class="service-top-banner">
 	<div class="service-top-text">
 		<h1 class="service-welcome-text hidden">QUALITATIVE SERVICES</h1>
