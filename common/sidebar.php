@@ -1,5 +1,5 @@
 <section id="panel" class="panel page-wrapper">
-	<section id="sidebar">
+	<section id="sidebar" class="home-hidden">
 
 		<span class="sidebar-logo-a">
 			<img class="sidebar-logo" src="img/logo/Header_Logo.png" />

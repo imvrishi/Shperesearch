@@ -11,16 +11,12 @@
                     holidays.
                 </div>
                 <form action="#" id="contact-form" method="post">
-                    <textarea class="col-sm-12 contact-form-message form-control" name="contact-form-message"
-                              id="contact-form-message" rows="8" placeholder="Your message"></textarea>
-                    <input type="text" class="col-sm-4 contact-form-name col-sm-4" name="contact-form-name"
-                           id="contact-form-name" placeholder="Name (required)">
-                    <input type="text" class="col-sm-4 contact-form-email col-sm-4" name="contact-form-email"
-                           id="contact-form-email" placeholder="Email (required)">
-                    <input type="text" class="col-sm-4 contact-form-subject col-sm-4" name="contact-form-subject"
-                           id="contact-form-subject" placeholder="Subject">
-                    <div id="contact-form-submit" class="contact-form-submit"><a href="#" data-alt-text="Send Message →"
-                                                                                 class="btnsub">Send Message →</a></div>
+                    <textarea class="col-sm-12 contact-form-message form-control" name="contact-form-message" id="contact-form-message" rows="8" placeholder="Your message"></textarea>
+                    <input type="text" class="col-sm-4 contact-form-name col-sm-4" name="contact-form-name" id="contact-form-name" placeholder="Name (required)">
+                    <input type="text" class="col-sm-4 contact-form-email col-sm-4" name="contact-form-email" id="contact-form-email" placeholder="Email (required)">
+                    <input type="text" class="col-sm-4 contact-form-subject col-sm-4" name="contact-form-subject" id="contact-form-subject" placeholder="Subject">
+                    <div id="contact-form-submit" class="contact-form-submit"><a href="#" data-alt-text="Send Message →" id="contact-form-submit-btn" name="contact-form-submit-btn" class="btnsub">Send Message →</a></div>
+                    <div id="contact-mail-errors"></div>
                 </form>
                 <br/><br/>
             </div>

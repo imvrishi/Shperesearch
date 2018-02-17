@@ -1,7 +1,7 @@
-<div class ="main_foot_div">
+<div class="main_foot_div home-hidden">
 	<div class="row main_foot_div-wrapper">
 		<div class="col-md-12">
-			<div class="col-md-4 footer_para hidden">
+			<div class="col-md-6 footer_para hidden">
 				<h6 class="footer_heading" style="color:white;">LATEST POST</h6>
 				<ul class="footer_post" style="list-style:none">
 					<li>
@@ -26,7 +26,7 @@
 						<div class="simple_line"></div>
 				</ul>
 			</div>
-			<div class="col-md-4 hidden" style="float:left">
+			<div class="col-md-6 footer_para hidden">
 				<h6 class="footer_heading"style=";">NEWSLETTER</h6>
 				<p class="newleter_para">Subscribe and stay updated with the latest news from us. We never spam!</p>
 				<div class="form_lbl">
@@ -43,17 +43,17 @@
 					<input type="submit" class="btnsub" value="Sign Me Up">
 				</div>
 			</div>
-			<div class="col-md-4 footer_para hidden">
+			<!-- <div class="col-md-4 footer_para hidden">
 				<h6 class="footer_heading">GET CONNECTED</h6>
 				<p class="follow">Follow us on social media</p>
 				<div class="icons">
 					<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
 					<a href="#" class="facebook" style="padding: 2px 5px 2px 5px;"><i class="fa fa-facebook"></i></a>
 					<a href="#" class="google-plus" style="padding: 2px 5px 2px 5px;"><i class="fa fa-google-plus"></i></a>
-					<!-- <a href="#" style="padding: 2px 5px 2px 5px;"><i class="fa fa-instagram"></i></a> -->
+					<!- <a href="#" style="padding: 2px 5px 2px 5px;"><i class="fa fa-instagram"></i></a> ->
 					<a href="#" class="twitter" style="padding: 2px 5px 2px 5px;"><i class="fa fa-twitter"></i></a>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </div>

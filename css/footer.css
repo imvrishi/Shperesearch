@@ -6,8 +6,12 @@
 .form_inpt_box {width:100%;height: 40px;background-color: transparent;color: #eaeaea;border: 1px solid #e8e8e8;border-color: rgba(234, 234, 234 ,0.2);-webkit-appearance: none;-moz-appearance: none;padding: 12px 14px;-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none;transition-property: border-color,color,background-color;-moz-transition-duration: 0.45s;-o-transition-duration: 0.45s;-webkit-transition-duration: 0.45s;transition-duration: 0.45s;font-size: 0.8em;outline: 0;}
 .form_inpt_box:focus, .form_inpt_box:hover, .form_inpt_box:active {border-color: #49a5ff;color: #49a5ff;}
 .form_btn_div{margin-top:2%; }
+
+
 .btnsub {border: 1px solid #49a5ff;background-color: #49a5ff;padding: 16px 20px 16px 20px;-moz-transition-property: background-color;-o-transition-property: background-color;-webkit-transition-property: background-color;transition-property: background-color;-moz-transition-duration: 0.45s;-o-transition-duration: 0.45s;-webkit-transition-duration: 0.45s;transition-duration: 0.45s;-moz-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);-o-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);-webkit-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);line-height: 1em;outline: none;cursor: pointer;overflow: hidden;-moz-appearance: none;-webkit-appearance: none;color: #FFFFFF;text-transform: uppercase;font-family: Nexa-XBold;}
 .btnsub:hover {background-color: #2f2f2f;color: white;}
+
+
 .footer_para{color:white;float:left; }
 .simple_line{border-bottom:1px solid grey; }
 .footer_post {list-style: none;padding: 0;font-family: Nexa-Light;}

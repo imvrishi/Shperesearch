@@ -12,11 +12,11 @@
 		<br/>
 		<h2 class="welcome-text hidden">Your Global Research Partner</h2>
 	</div> -->
-	<div class="down-arrow">
+	<div class="down-arrow home-hidden">
 		<a href="#home-about-us"><i class="fa fa-angle-double-down fa-4x" aria-hidden="true"></i></a>
 	</div>
 </div>
-<div id="home-about-us" class="home-about-us">
+<div id="home-about-us" class="home-about-us home-hidden">
 	<div class="simple-line"></div>
 	<h1 class="hidden">About Us</h1>
 	<div class="home-about-us-info hidden">
@@ -45,7 +45,7 @@
 	</div>
 </div>
 
-<div id="home-expertise" class="home-expertise">
+<div id="home-expertise" class="home-expertise hidden home-hidden">
 	<div class="simple-line"></div>
 	<h1>Our Expertise</h1>
 	<div class="home-expertise-content">

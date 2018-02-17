@@ -1,4 +1,4 @@
-<div class="why-choose-us">
+<div class="why-choose-us home-hidden">
 	<div class="why-choose-us-wrapper">
 		<h2 class="hidden">Why choose us ?</h2>
 		<div class="why-choose-us-slider hidden owl-carousel owl-theme">

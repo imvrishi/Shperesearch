@@ -125,7 +125,8 @@ a:hover { text-decoration: none; }
 .zoomInOut {animation: 45s linear 1s normal none zoomInOut;}
 .customZoom {transform: scale(1);transition: transform 45s linear;}
 
-.animated15 {-webkit-animation-duration: 1.5s; animation-duration: 1.5s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+.animated15 {-webkit-animation-duration: 1.5s; animation-duration: 1.5s; -webkit-animation-fill-mode: both; animation-fill-mode: both;}
+.animated20 {-webkit-animation-duration: 2s; animation-duration: 2s; -webkit-animation-fill-mode: both; animation-fill-mode: both;}
 .line-spin-fade-loader {position: relative; }
 .line-spin-fade-loader > div:nth-child(1) {top: 20px; left: 0; -webkit-animation: line-spin-fade-loader 1.2s 0.12s infinite ease-in-out; animation: line-spin-fade-loader 1.2s 0.12s infinite ease-in-out; }
 .line-spin-fade-loader > div:nth-child(2) {top: 13.63636px; left: 13.63636px; -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); -webkit-animation: line-spin-fade-loader 1.2s 0.24s infinite ease-in-out; animation: line-spin-fade-loader 1.2s 0.24s infinite ease-in-out; }
@@ -141,3 +142,24 @@ a:hover { text-decoration: none; }
 
 .ui-widget-content {background: transparent;}
 .ui-tabs-vertical div[role="tabpanel"] {background: white;}
+
+
+
+/* Services */
+/*svg.intro {background: linear-gradient(135deg, #aa3bb1, #582a7e); max-width: 800px; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -webkit-box-shadow: 0 30px 50px -20px #2e0642; box-shadow: 0 30px 50px -20px #2e0642; }*/
+svg.intro {position: relative;width: 1200px;margin: 0 auto;}
+svg.intro .text {display: none; }
+svg.intro.go .text {font-family: Arial, sans-serif; font-size: 20px; text-transform: uppercase; display: block; }
+svg.intro.go .text-stroke {fill: none; stroke: #51256f; stroke-width: 2.8px; stroke-dashoffset: -900; stroke-dasharray: 900; stroke-linecap: butt; stroke-linejoin: round; -webkit-animation: dash 5s ease-in-out forwards; animation: dash 5s ease-in-out forwards; }
+svg.intro.go .text-stroke:nth-child(2) {-webkit-animation-delay: .3s; animation-delay: .3s; }
+svg.intro.go .text-stroke:nth-child(3) {-webkit-animation-delay: .9s; animation-delay: .9s; }
+svg.intro.go .text-stroke-2 {stroke: #f1f1f1; -webkit-animation-delay: 1.2s; animation-delay: 1.2s; }
+svg.intro.go .text-stroke:nth-child(5) {-webkit-animation-delay: 1.5s; animation-delay: 1.5s; }
+svg.intro.go .text-stroke:nth-child(6) {-webkit-animation-delay: 1.8s; animation-delay: 1.8s; }
+
+@-webkit-keyframes dash {100% {stroke-dashoffset: 0; } }
+@keyframes dash {100% {stroke-dashoffset: 0; } }
+
+#contact-mail-errors {width: 100%; border: none; color: white; padding: 10px 28px; text-align: center; display: none; font-size: 16px; cursor: pointer; box-shadow: 2px 2px 1px grey;}
+#contact-mail-errors.red {background-color: #d9534f; display: inline-block!important;}
+#contact-mail-errors.green {background-color: #4CAF50; display: inline-block!important;}

@@ -131,7 +131,7 @@ function readyPortChecker() {
         serviceCount = 1;
     let animation;
 
-    $('.qualitative .single-service').each(function (index, el) {
+    $('.quantitative .single-service, .qualitative .single-service').each(function (index, el) {
 
         minIndex = index % serviceCount;
         if (minIndex == 0) {
@@ -142,25 +142,25 @@ function readyPortChecker() {
             animation = 'fadeInUp';
         }
         $(this).viewportChecker({
-            classToAdd: `animated ${animation}`,
+            classToAdd: `animated20 ${animation}`,
             classToRemove: 'hidden',
             offset: 100
         });
     });
 
-    $('.quantitative .single-service').each(function (index, el) {
+    $('.main_foot_div .col-md-6, .home-expertise').each(function (index, el) {
 
         $(this).viewportChecker({
-            classToAdd: 'animated fadeIn',
+            classToAdd: 'animated15 fadeIn',
             classToRemove: 'hidden',
-            offset: 100
+            offset: 300
         });
     });
 
-    $('.why-choose-us h2, .why-choose-us .why-choose-us-slider, .home-client-showcase > h2, .home-client-showcase .home-clients-list, .main_foot_div .col-md-4, .home-expertise, .home-about-us h1, .home-about-us .home-about-us-info').viewportChecker({
+    $('.why-choose-us h2, .why-choose-us .why-choose-us-slider, .home-client-showcase > h2, .home-client-showcase .home-clients-list, .home-about-us h1, .home-about-us .home-about-us-info').viewportChecker({
         classToAdd: 'animated fadeInUp',
         classToRemove: 'hidden',
-        offset: 100
+        offset: 300
     });
 }
 
@@ -240,6 +240,16 @@ function alignElements() {
     $('.home-banner video').css('left', left).css('width', screenWidth);
 
     $('.customZoom').css('transform', 'scale(1.6)');
+    setTimeout(() => {
+        $('.intro').addClass('go');
+    }, 500);
+
+    var app = document.querySelector('.typewriter');
+    if ( app ) {
+        let text = app.innerHTML;
+        var typewriter = new Typewriter(app, {loop: false});
+        typewriter.typeString(text).start();
+    }
 }
 
 function highlightMenu(href) {
@@ -251,6 +261,33 @@ function highlightMenu(href) {
 function jsUcfirst(title) {
 
     return title.charAt(0).toUpperCase() + title.slice(1) + ' | Spheresearch';
+}
+
+function submitContactForm() {
+    
+    $('#contact-form-submit-btn').click(function(e) {
+        
+        let data = {};
+        data.contact_form_message = $('#contact-form-message').val();
+        data.contact_form_name = $('#contact-form-name').val();
+        data.contact_form_email = $('#contact-form-email').val();
+        data.contact_form_subject = $('#contact-form-subject').val();
+
+        $.ajax({
+            url: 'common/contact_us_mail.php',
+            type: 'POST',
+            dataType: 'json',
+            data: data,
+            success: function (r) {
+                if ( r.success == true ) {
+                    $('#contact-mail-errors').html( r.errors ).addClass('green');
+                } else {
+                    $('#contact-mail-errors').html( 'Your message has been send to the team u will receive the response within 2 business days.' ).addClass('red');
+                }
+            }
+        });
+        
+    });
 }
 
 let video;
@@ -285,20 +322,18 @@ function callAjax(directory, href, type) {
             readyTabs();
             alignElements();
             highlightMenu(href);
+            submitContactForm();
             if (href == 'home') {
+                $('.home-hidden').css('display', 'none');
                 video = document.querySelector('.home-video');
                 let b = setInterval(() => {
-                    if(video.readyState === 4
-            )
-                {
-                    $('#preloader').hide();
-                    clearInterval(b);
-                    video.addEventListener('ended', playVideo, false);
-                }
-            },
-                500
-            )
-                ;
+                    if(video.readyState === 4)
+                    {
+                        $('#preloader').hide();
+                        clearInterval(b);
+                        video.addEventListener('ended', playVideo, false);
+                    }
+                }, 500);
             } else {
                 $('#preloader').hide();
             }
@@ -315,6 +350,7 @@ function playVideo() {
     video.play();
     video.setAttribute('loop', true);
     video.removeEventListener('ended', playVideo);
+    $('.home-hidden').css('display', '');
 }
 
 function ajaxifyApp() {

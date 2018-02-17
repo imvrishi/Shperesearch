@@ -1,5 +1,5 @@
 </section><!-- /#body-container -->
-<div class="footer fixed-footer hidden none">
+<div class="footer fixed-footer hidden none home-hidden">
     <div class="footer-items">
         <div class="item" style="width: 35%;">
             <div class="img">
@@ -52,6 +52,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/history.js/1.8/native.history.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="https://safi.me.uk/typewriterjs/js/typewriter.js"></script>
 
     <!-- Content -->
     <script src="js/header.js"></script>

@@ -49,8 +49,8 @@ h2.welcome-text { font-weight: 600; }
 .owl-theme .owl-dots .owl-dot span {    width: 30px; height: 5px; margin: 5px 7px; background: #D6D6D6; display: block; -webkit-backface-visibility: visible; transition: opacity .2s ease; border-radius: 0; }
 
 
-.row.we-undertake {display: block;width: 600px;/* margin: 0 auto 0 auto; */position: relative;left: 55%;transform: translateX(-50%);}
-.row.we-undertake ul {width: 100%;margin-left: 105px;}
+.row.we-undertake {display: block;width: 600px;/* margin: 0 auto 0 auto; */position: relative;left: 52%;transform: translateX(-50%);}
+.row.we-undertake ul {width: 100%;margin-left: 120px;}
 .row.we-undertake p {font-family: Nexa-Bold;}
 .row.we-undertake ul li {font-family: Nexa-Light;}
 

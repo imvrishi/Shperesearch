@@ -30,7 +30,7 @@
 				<div class="ch-info3">
 					<div class="ch-info-front imgs4"></div>
 						<div class="ch-info-back">
-							<h3 class="header_font body_bk_color small">Hospitality</h3>
+							<h3 class="header_font body_bk_color small">Information Technology</h3>
 					</div>	
 				</div>
 			</div>
@@ -56,7 +56,7 @@
 				<div class="ch-info6">
 					<div class="ch-info-front imgs7"></div>
 						<div class="ch-info-back">
-							<h3 class="header_font body_bk_color small">Electronics</h3>
+							<h3 class="header_font body_bk_color small">Telecommunication</h3>
 						</div>	
 				</div>
 			</div>
@@ -64,15 +64,15 @@
 				<div class="ch-info7">
 					<div class="ch-info-front imgs8"></div>
 						<div class="ch-info-back">
-							<h3 class="header_font body_bk_color small">Telecommunication</h3>
-					</div>	
+							<h3 class="header_font body_bk_color small">Electronics</h3>
+					</div>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 col-xs-12 ch-item hidden" style="float:left">
 				<div class="ch-info8">
 					<div class="ch-info-front imgs9"></div>
 						<div class="ch-info-back">
-							<h3 class="header_font body_bk_color small">Information Technology</h3>
+							<h3 class="header_font body_bk_color small">Hospitality</h3>
 						</div>	
 				</div>
 			</div>

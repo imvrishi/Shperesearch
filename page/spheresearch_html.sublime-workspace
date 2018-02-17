@@ -4,26 +4,6 @@
 		"selected_items":
 		[
 			[
-				"err",
-				"errors\t(contact_us_mail.php)"
-			],
-			[
-				"su",
-				"success"
-			],
-			[
-				"json",
-				"json_encode"
-			],
-			[
-				"val",
-				"val\t.val()"
-			],
-			[
-				"contact-form",
-				"contact-form-submit-btn\t(contact-us.php)"
-			],
-			[
 				"ty",
 				"typewriter\t(header.js)"
 			],
@@ -184,6 +164,10 @@
 				"select2\t(view_credit.php)"
 			],
 			[
+				"su",
+				"success\t(Credit.php)"
+			],
+			[
 				"site",
 				"site_url\t(Credit.php)"
 			],
@@ -318,6 +302,10 @@
 			[
 				"auto",
 				"autocomplete\t(Independent.php)"
+			],
+			[
+				"json",
+				"json_encode\t(Available.php)"
 			],
 			[
 				"sele",
@@ -508,70 +496,29 @@
 				"if\tif"
 			],
 			[
+				"val",
+				"value"
+			],
+			[
 				"fo",
 				"foreach\tforeach …"
 			],
 			[
 				"p",
 				"php"
+			],
+			[
+				"B",
+				"BILL_ID"
+			],
+			[
+				"em",
+				"emailConfig"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Users/Inspire/Desktop/ss.txt",
-			"settings":
-			{
-				"buffer_size": 11,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 98,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "page/contact-us.php",
-			"settings":
-			{
-				"buffer_size": 3021,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/header.css",
-			"settings":
-			{
-				"buffer_size": 17461,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/header.js",
-			"settings":
-			{
-				"buffer_size": 11283,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "common/contact_us_mail.php",
-			"settings":
-			{
-				"buffer_size": 1224,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -636,30 +583,26 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Project/spheresearch"
+		"/D/Project/spheresearch_html"
 	],
 	"file_history":
 	[
-		"/C/Users/Inspire/AppData/Local/Temp/Rar$DI07.656/careers-form-handler.php",
 		"/D/Project/spheresearch/page/quantitative.php",
 		"/D/Project/spheresearch/page/qualitative.php",
 		"/D/Project/spheresearch/css/header.css",
 		"/D/Project/spheresearch/js/header.js",
-		"/D/Project/spheresearch/index.php",
-		"/D/Project/spheresearch/common/footer.php",
-		"/D/Project/spheresearch/common/header.php",
-		"/D/Project/spheresearch/generated_home.html",
-		"/D/Project/spheresearch/index.html",
+		"/C/Users/Inspire/Desktop/ss.txt",
 		"/D/Project/spheresearch/common/newsletter.php",
 		"/D/Project/spheresearch/common/whychooseus.php",
 		"/D/Project/spheresearch/css/fieldwork.css",
 		"/D/Project/spheresearch/page/home.php",
+		"/D/Project/spheresearch/common/footer.php",
 		"/D/Project/spheresearch/common/sidebar.php",
+		"/D/Project/spheresearch/common/header.php",
 		"/D/Project/spheresearch/sftp-config.json",
 		"/D/Project/spheresearch/css/industries.css",
 		"/D/Project/spheresearch/page/industries.php",
 		"/D/Project/spheresearch/css/home.css",
-		"/C/Users/Inspire/Desktop/ss.txt",
 		"/D/Project/spheresearch/css/footer.css",
 		"/D/Project/spheresearch/css/free_tree.css",
 		"/D/Project/spheresearch/css/contact-us.css",
@@ -669,6 +612,7 @@
 		"/D/Project/spheresearch/css/owl.theme.green.min.css",
 		"/D/Project/spheresearch/page/contact-us.php",
 		"/D/Project/spheresearch/css/slideout.css",
+		"/D/Project/spheresearch/index.php",
 		"/D/Project/spheresearch/page/careers.php",
 		"/D/Project/spheresearch/page/associate.php",
 		"/D/Project/spheresearch/page/free-tree.php",
@@ -767,11 +711,14 @@
 		"/D/Project/gap_v2_local/application/controllers/employeeMngt/emp_mst.php",
 		"/D/Project/gap_v2_local/application/libraries/Mailclass.php",
 		"/D/Project/gap_v2_local/application/controllers/leaveMngt/leave_designation_setting.php",
-		"/C/users/inspire/appdata/local/temp/sublime-sftp-browse-1512524754/gaplocal/home/gapuser/www/dev/gap_v2/application/config/database.php"
+		"/C/users/inspire/appdata/local/temp/sublime-sftp-browse-1512524754/gaplocal/home/gapuser/www/dev/gap_v2/application/config/database.php",
+		"/D/Project/gap_v2_local/application/models/leaveMngt/leave_requests_dtl_m.php",
+		"/D/Project/gap_v2_local/js/leaveMngt/leave_requests_dtl.js",
+		"/D/Project/gap_v2_local/application/controllers/systmMngt/oa_brand_settings.php"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
@@ -850,204 +797,8 @@
 	"groups":
 	[
 		{
-			"selected": 4,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Users/Inspire/Desktop/ss.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": false,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 98,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								98,
-								98
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "page/contact-us.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3021,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1611,
-								1611
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 120.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "css/header.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17461,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17113,
-								17113
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4897.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/header.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11283,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7951,
-								7951
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5257.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "common/contact_us_mail.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1224,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1049,
-								1049
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 300.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1107,7 +858,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "spheresearch.sublime-project",
+	"project": "spheresearch_html.sublime-project",
 	"replace":
 	{
 		"height": 52.0
@@ -1130,7 +881,7 @@
 		[
 			[
 				"",
-				"D:\\Project\\gap_v2_local\\gap_v2_local.sublime-project"
+				"D:\\Project\\bitstock\\bitstock.sublime-project"
 			]
 		],
 		"width": 380.0
