@@ -25,7 +25,7 @@
             </div>
             <div class="text">
                 <div class="title">Call Us</div>
-                <div class="content">+100 0000 0000</div>
+                <div class="content">+44 (0)20 3287 4448</div>
             </div>
         </div>
         <div class="item" style="width: 18%;top: -6px;">

@@ -4,14 +4,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
 		<?php /* <link rel="shortcut icon" href="http://agapemr.com/index.html#"> */ ?>
 		<meta charset="utf-8">
-		<title>Home | Spheresearch</title>
+		<title>Spheresearch | Market Research | Management Consultancy</title>
 		<meta http-equiv="cleartype" content="on">
 		<meta name="MobileOptimized" content="320">
 		<meta name="HandheldFriendly" content="True">
 		<meta name="apple-mobile-web-app-capable" content="yes">
-		<?php /* <meta name="description" content="Agape MR is a Indo-Mexican fast growing market research firm unique in its class, result-driven and deeply committed to deliver ACCURACY as its primest value, our innovating business model offer to our customers a single point of contact for multi-country studies.">
-		<meta name="keywords" content="marketing research, market analysis, international marketing, marketing research process, market research companies, market survey, market research methods, marketing information, market, research, agape, market research company india, market research company mexico, market research company mumbai, market research mumbai, market research mexico, market research asia, market research middle east, market research latin america, market research india, market research, market research companies, fmcg market research, automotive marketing research, healthcare market research services, online marketing research survey, online research service , marketing field of study, research field of study, cati , cawi, field research, tracking studies, field market research, idi´s, idi, f2f idi, fgd">
-		<meta name="robots" content="index,follow">
+		<meta name="description" content="Spheresearch is a research and management consultancy to some of the leading research, data and insights businesses in worldwide markets. We undertake any specific stage of the market research process.">
+		<meta name="keywords" content="market research companies,fieldwork,customer survey,survey sampling,paid surveys,market survey,online market research,market research participant,niche field,healthcare online research,healthcare survey,healthcare field research,healthcare research recruitment,healthcare market,qualitative research,recruitment agencies,market research london,market researcher,nielsen survey,ipsos,gfk,tns,kantar,millward brown,dunnhumby,tkl research">
+		<?php /* <meta name="robots" content="index,follow">
 		<meta name="author" content="Spheresearch">  */ ?>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />

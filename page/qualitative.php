@@ -1,26 +1,10 @@
 <div class="service-top-banner-img"><img src="img/Services.jpg" alt="Qualitative" class="customZoom" /></div>
 <div class="service-top-banner">
 	<div class="service-top-text">
-
-		<svg class="intro" viewbox="0 0 250 30">
-		<text text-anchor="start" x="10" y="30" class="text text-stroke" clip-path="url(#text1)">Qualitative</text>
-		<text text-anchor="start" x="150" y="30" class="text text-stroke" clip-path="url(#text2)">Services</text>
-		<text text-anchor="start" x="10" y="30" class="text text-stroke text-stroke-2" clip-path="url(#text1)">Qualitative</text>
-		<text text-anchor="start" x="150" y="30" class="text text-stroke text-stroke-2" clip-path="url(#text2)">Services</text>
-		<defs>
-		<clipPath id="text1">
-		<text text-anchor="start" x="10" y="30" class="text">Qualitative</text>
-		</clipPath>
-		<clipPath id="text2">
-		<text text-anchor="start" x="150" y="30" class="text">Services</text>
-		</clipPath>
-		</defs>
-		</svg>
-
-		<!-- <h1 class="service-welcome-text hidden">QUALITATIVE SERVICES</h1> -->
+		<h1 class="service-welcome-text hidden">QUALITATIVE SERVICES</h1>
 		<h5 class="service-welcome-text hidden">
-			<p class="typewriter">Spheresearch helps businesses in being informed about their customer’s needs, choices, perceptions and attitudes. This acts as a guiding force in being informed about their customer’s requirement thus pioneering the marketing needs. We provide proficient qualitative research services that throws light on the attitude, behaviour and understanding of the driving force behind the decisions of the customer and we have proven expertise in this field.
-			We have performed several qualitative studies providing insights into the problem or helping to develop ideas using data collection methods such as focus groups (group discussions), triads, dyads, in-depth interviews, uninterrupted observation, bulletin boards, and ethnographic participation/observation.</p>
+			<p><strong>Spheresearch</strong> helps businesses in being informed about their customer’s needs, choices, perceptions and attitudes. This acts as a guiding force in being informed about their customer’s requirement thus pioneering the marketing needs. We provide proficient qualitative research services that throws light on the attitude, behaviour and understanding of the driving force behind the decisions of the customer and we have proven expertise in this field.</p>
+			<p>We have performed several qualitative studies providing insights into the problem or helping to develop ideas using data collection methods such as focus groups (group discussions), triads, dyads, in-depth interviews, uninterrupted observation, bulletin boards, and ethnographic participation/observation.</p>
 		</h5>
 	</div>
 </div>

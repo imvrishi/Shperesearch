@@ -1,7 +1,6 @@
 <?php 
-$errors = '';
+$errors = [];
 $myemail = 'hello@spheresearch.com'; // <-----Put Your email address here.
-$myemail = 'riskey.it@gmail.com'; // <-----Put Your email address here.
 $post = filter_var_array( $_POST, FILTER_SANITIZE_STRING );
 $success = false;
 if(empty($post['contact_form_message'])  ||
@@ -9,7 +8,7 @@ if(empty($post['contact_form_message'])  ||
 	empty($post['contact_form_email']) || 
 	empty($post['contact_form_subject']) )
 {
-    $errors .= "\n Error: all fields are required";
+    $errors[] = "Error: all fields are required";
 }
 
 $message = $post['contact_form_message']; 
@@ -19,7 +18,7 @@ $subject = $post['contact_form_subject'];
 
 if ( ! preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", $email_address) )
 {
-    $errors .= "\n Error: Invalid email address";
+    $errors[] = "Error: Invalid email address";
 }
 
 if( empty($errors))
@@ -31,7 +30,7 @@ if( empty($errors))
 
 	if( ! @mail( $to, $subject, $message, $headers ) )
 	{
-		$errors = "\n Error: Could not send mail please try again later.";
+		$errors[] = "Error: Could not send mail please try again later.";
 	}
 	else
 	{
@@ -39,5 +38,8 @@ if( empty($errors))
 	}
 	//redirect to the 'thank you' page
 	// header('Location: contact-form-thank-you.html');
-} 
+}
+if ( ! empty( $errors ) ) {
+	$errors = implode( "<br/>", $errors );
+}
 echo json_encode( compact( 'success', 'errors' ) );

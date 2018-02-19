@@ -258,9 +258,52 @@ function highlightMenu(href) {
     $('a[href="' + href + '"] .menu-list').addClass('active');
 }
 
-function jsUcfirst(title) {
+function changeDescription(href) {
 
-    return title.charAt(0).toUpperCase() + title.slice(1) + ' | Spheresearch';
+    let title = 'Spheresearch | Market Research | Management Consultancy';
+    let description = 'Spheresearch is a research and management consultancy to some of the leading research, data and insights businesses in worldwide markets. We undertake any specific stage of the market research process.';
+    let keywords = 'market research companies,fieldwork,customer survey,survey sampling,paid surveys,market survey,online market research,market research participant,niche field,healthcare online research,healthcare survey,healthcare field research,healthcare research recruitment,healthcare market,qualitative research,recruitment agencies,market research london,market researcher,nielsen survey,ipsos,gfk,tns,kantar,millward brown,dunnhumby,tkl research';
+    switch( href ) {
+
+        case 'home':
+            title = 'Spheresearch | Market Research | Management Consultancy';
+            description = 'Spheresearch is a research and management consultancy to some of the leading research, data and insights businesses in worldwide markets. We undertake any specific stage of the market research process.';
+            keywords = 'market research companies,fieldwork,customer survey,survey sampling,paid surveys,market survey,online market research,market research participant,niche field,healthcare online research,healthcare survey,healthcare field research,healthcare research recruitment,healthcare market,qualitative research,recruitment agencies,market research london,market researcher,nielsen survey,ipsos,gfk,tns,kantar,millward brown,dunnhumby,tkl research';
+            break;
+        case 'qualitative':
+            title = 'Qualitative Market Research Services | Spheresearch';
+            description = 'We have performed several qualitative studies providing insights using data collection methods such as focus groups (group discussions), triads, dyads, in-depth interviews, uninterrupted observation, bulletin boards, and ethnographic participation/observation.';
+            keywords = 'face to face,in depth interview,focus recruitment,online focus groups,interviewer,ethnography,ethnographic research methods,ethnographic study,ethnography study,in depth,market research methods';
+            break;
+        case 'quantitative':
+            title = 'Quantitative Market Research Services | Spheresearch';
+            description = 'We have performed several quantitative studies by way of generating data through surveys in different modalities (online, phone, paper), face-to- face interviews, telephonic interviews, longitudinal studies, website interceptors, online polls, and systematic observations.';
+            keywords = 'online surveys,interview questions,interview techniques,paid online surveys,phone interview questions,competency based interview questions,consumer behaviour,eye tracking,mystery shopping,car clinic';
+            break;
+        case 'industries':
+            title = 'Research Industries | Spheresearch';
+            description = 'We are able to field quantitative and qualitative projects according to your requirements while bringing our methodological competence. Our primary focus is in the area of US, UK and Europe but we are also capable of conducting research in Middle East and other countries.';
+            keywords = 'healthcare market research,pharmaceutical market research,banking market research,finance market research,fashion market research,travel market research,tourism market research,hospitality market research,electronics market research, telecommunication market research,information technology market research,f&b market research,energy market research,real estate market research,fmcg market research,education market research';
+            break;
+        case 'associate':
+            title = 'Associate | Spheresearch';
+            description = '';
+            keywords = '';
+            break;
+        case 'careers':
+            title = 'Careers | Spheresearch';
+            description = '';
+            keywords = '';
+            break;
+        case 'contact-us':
+            title = 'Contact Us | Spheresearch';
+            description = 'We undertake any specific stage of the market research process. You’ve got questions, and we have answers. Just send us a message and one of our knowledgeable support staff will be in contact with you within 48hrs – even on weekends and holidays.';
+            keywords = 'casro,esomar,green book,gobal research business network,group discussion,focus group research,paid qualitative research,paid quantitative research,paid focus groups,cati,cawi,capi,papi,wati,wapi,f2f,fgd,vrt,tracking study,descriptive analysis,competitive intelligence,field trials,global market research,market research services';
+            break;
+    }
+    $('title').text( title );
+    $('meta[name="description"]').attr( 'content', description );
+    $('meta[name="keywords"]').attr( 'content', keywords );
 }
 
 function submitContactForm() {
@@ -280,9 +323,9 @@ function submitContactForm() {
             data: data,
             success: function (r) {
                 if ( r.success == true ) {
-                    $('#contact-mail-errors').html( r.errors ).addClass('green');
+                    $('#contact-mail-errors').html( 'Your message has been send to the team u will receive the response within 2 business days.' ).addClass('green');
                 } else {
-                    $('#contact-mail-errors').html( 'Your message has been send to the team u will receive the response within 2 business days.' ).addClass('red');
+                    $('#contact-mail-errors').html( r.errors ).addClass('red');
                 }
             }
         });
@@ -313,9 +356,10 @@ function callAjax(directory, href, type) {
         success: function (data) {
             $('#body-container').html(data); // place our ajaxed content into our content area
             if (type == 'click') {
-                History.pushState(null, jsUcfirst(href), 'index.php?route=' + href);
+                History.pushState(null, href, 'index.php?route=' + href);
                 // change the url and add our ajax request to our history
             }
+            changeDescription( href );
             readyCarousel();
             readyPortChecker();
             loadHome();
@@ -350,6 +394,7 @@ function playVideo() {
     video.play();
     video.setAttribute('loop', true);
     video.removeEventListener('ended', playVideo);
+    $('#sidebar').css('display', '').addClass('animated15 fadeInDown');
     $('.home-hidden').css('display', '');
 }
 

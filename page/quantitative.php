@@ -1,26 +1,10 @@
 <div class="service-top-banner-img"><img src="img/Services.jpg" alt="Quantitative" class="customZoom" /></div>
 <div class="service-top-banner">
 	<div class="service-top-text">
-
-		<svg class="intro" viewbox="0 0 250 30">
-		<text text-anchor="start" x="10" y="30" class="text text-stroke" clip-path="url(#text1)">Quantitative</text>
-		<text text-anchor="start" x="150" y="30" class="text text-stroke" clip-path="url(#text2)">Services</text>
-		<text text-anchor="start" x="10" y="30" class="text text-stroke text-stroke-2" clip-path="url(#text1)">Quantitative</text>
-		<text text-anchor="start" x="150" y="30" class="text text-stroke text-stroke-2" clip-path="url(#text2)">Services</text>
-		<defs>
-		<clipPath id="text1">
-		<text text-anchor="start" x="10" y="30" class="text">Quantitative</text>
-		</clipPath>
-		<clipPath id="text2">
-		<text text-anchor="start" x="150" y="30" class="text">Services</text>
-		</clipPath>
-		</defs>
-		</svg>
-		
-		<!-- <h1 class="service-welcome-text">QUANTITATIVE SERVICES</h1> -->
+		<h1 class="service-welcome-text">QUANTITATIVE SERVICES</h1>
 		<h5 class="service-welcome-text">
-			<p class="typewriter">Spheresearch believes in implementing innovative strategies and techniques backed by our strong theoretical understanding and deep knowledge of traditional processes in conducting quantitative research for any industry. We deliver expert services that relieve our clients from the overhead of deploying complex internal research systems and processes to fulfil their market research needs. We have a flexible approach to data collection, analysis, business intelligence and partnerships in achieving business growth for the clients.
-			We have performed several quantitative studies by way of generating data through surveys in different modalities (online, phone, paper), audits, points of purchase, face-to- face interviews, telephonic interviews, longitudinal studies, website interceptors, online polls, and systematic observations.</p>
+			<p><strong>Spheresearch</strong> believes in implementing innovative strategies and techniques backed by our strong theoretical understanding and deep knowledge of traditional processes in conducting quantitative research for any industry. We deliver expert services that relieve our clients from the overhead of deploying complex internal research systems and processes to fulfil their market research needs. We have a flexible approach to data collection, analysis, business intelligence and partnerships in achieving business growth for the clients.</p>
+			<p>We have performed several quantitative studies by way of generating data through surveys in different modalities (online, phone, paper), audits, points of purchase, face-to- face interviews, telephonic interviews, longitudinal studies, website interceptors, online polls, and systematic observations.</p>
 		</h5>
 	</div>
 </div>
