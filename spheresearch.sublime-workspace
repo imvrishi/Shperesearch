@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"qu",
+				"qualitative\t(header.php)"
+			],
+			[
 				"home",
 				"home-hidden\t(sidebar.php)"
 			],
@@ -436,10 +440,6 @@
 				"question"
 			],
 			[
-				"qu",
-				"question1"
-			],
-			[
 				"user_",
 				"user_registration_c\t(user_registration_c.php)"
 			],
@@ -587,21 +587,21 @@
 	],
 	"file_history":
 	[
+		"/D/Project/spheresearch/js/header.js",
+		"/D/Project/spheresearch/common/footer.php",
+		"/D/Project/spheresearch/css/header.css",
 		"/C/Users/Inspire/Desktop/ss.txt",
+		"/D/Project/spheresearch/common/header.php",
 		"/D/Project/spheresearch/common/contact_us_mail.php",
 		"/D/Project/spheresearch/common/sidebar.php",
 		"/D/Project/spheresearch/css/contact-us.css",
 		"/D/Project/spheresearch/page/contact-us.php",
-		"/D/Project/spheresearch/js/header.js",
 		"/D/Project/spheresearch/page/home.php",
-		"/D/Project/spheresearch/common/footer.php",
 		"/D/Project/spheresearch/page/quantitative.php",
 		"/D/Project/spheresearch/page/qualitative.php",
 		"/D/Project/spheresearch/page/associate.php",
-		"/D/Project/spheresearch/css/header.css",
 		"/D/Project/spheresearch/index.php",
 		"/C/Users/Inspire/AppData/Local/Temp/Rar$DI07.656/careers-form-handler.php",
-		"/D/Project/spheresearch/common/header.php",
 		"/D/Project/spheresearch/generated_home.html",
 		"/D/Project/spheresearch/index.html",
 		"/D/Project/spheresearch/common/newsletter.php",
@@ -881,7 +881,7 @@
 		[
 			[
 				"",
-				"D:\\Project\\gap_v2_local\\gap_v2_local.sublime-project"
+				"D:\\Project\\bitstock\\bitstock.sublime-project"
 			]
 		],
 		"width": 380.0

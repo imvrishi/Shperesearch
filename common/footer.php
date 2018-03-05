@@ -29,10 +29,10 @@
             </div>
         </div>
         <div class="item" style="width: 18%;top: -6px;">
-            <a href="#" class="img"><span id="social-tw"></span></a>
+            <a href="https://twitter.com/spheresearch" target="_blank" class="img external"><span id="social-tw"></span></a>
             <a href="#" class="img"><span id="social-gp"></span></a>
             <a href="#" class="img"><span id="social-fb"></span></a>
-            <a href="#" class="img"><span id="social-in"></span></a>
+            <a href="https://www.linkedin.com/company/spheresearch/" target="_blank" class="img external"><span id="social-in"></span></a>
             <div class="clear_fix"></div>
             <p class="copyright">Copyright © 2014 - SPHERESEARCH</p>
         </div>

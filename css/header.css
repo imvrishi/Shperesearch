@@ -21,7 +21,7 @@ body { font-family: Nexa-Black; -webkit-font-smoothing: antialiased; text-render
 #body-container {max-width: 1200px;height: auto;margin: auto;}
 .font-segoe { font-family: "Segoe UI"; }
 
-#panel {background-color: #f7f8fc;}
+#panel {background-color: #f7f8fc;width: 100%;overflow: hidden;}
 
 a { text-decoration: none; color: #FFFFFF; }
 a:hover { text-decoration: none; }

@@ -403,7 +403,7 @@ function ajaxifyApp() {
     let state = History.getState();
 
     //for when they click on an ajax link
-    $(document.body).on('click', 'a:not([href^="#"])', function (e) {
+    $(document.body).on('click', 'a:not([href^="#"]):not(.external)', function (e) {
         let $this = $(this);
         let href = $this.attr('href'); // use the href value to determine what content to ajax in
         let currentPage = getCurrentPage('route');
