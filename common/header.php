@@ -47,7 +47,7 @@
 		
 		<nav id="right-menu">
 			<ul class="sidenav">
-				<li><a href="#" class="sidebar-logo-a"><img class="sidebar-logo" src="img/Logo.JPG" /></a></li>
+				<li><a href="#" class="sidebar-logo-a"><img class="sidebar-logo" src="img/logo/Header_Logo.png" /></a></li>
 				<li><a href="home">HOME</a></li>
 				<li>
 					<a href="#" id="services">SERVICES</a>
@@ -58,6 +58,7 @@
 				</li>
 				<li><a href="industries">INDUSTRIES</a></li>
 				<li><a href="associate">ASSOCIATE</a></li>
+				<li><a href="careers">CAREERS</a></li>
 				<li><a href="contact-us">CONTACT US</a></li>
 			</ul>
 		</nav>

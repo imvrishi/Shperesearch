@@ -69,11 +69,18 @@ ul {padding: 0;margin: 0;position: relative;}
 	.sidenav a { font-size: 18px; }
 }
 
-@media screen and (max-width: 869px) {
+@media screen and (max-width: 1200px) {
 	#sidebar { display: none; }
 	#header-nav { display: block !important; }
 	.page-wrapper { padding: 60px 0 10px; }
 	.lds-hourglass { width: 100%; }
+	.sidenav img, .sidenav .img {width: 100%;height: auto;position: static;}
+	.sidenav {float: none;}
+	.sidenav > li {float: none;}
+	.sidenav ul {height: 0;position: static;padding: 0;}
+	.sidenav li:hover ul {height: 70px;}
+	.sidenav ul li {padding-top: 10px;height: 25px;}
+	.sidenav ul {transition: visibility 0s, opacity 0.5s linear, height 0.5s linear;}
 }
 
 /*

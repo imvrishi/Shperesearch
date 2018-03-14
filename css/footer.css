@@ -1,5 +1,5 @@
 .main_foot_div{padding: 90px 0 70px 0;background-image: url('../img/Homepage_Image_2.jpg');background-position: top;background-size: 100% 100%;}
-.main_foot_div-wrapper{width: 1200px;margin: auto;}
+.main_foot_div-wrapper{width: 100%;max-width: 1200px;margin: auto;}
 .newleter_para, .follow {color:white; font-family: Nexa-Light;}
 .footer_heading{color:white;font-family: Nexa-Bold;}
 .form_lbl{color:white;font-family: Nexa-Thin;}
@@ -27,6 +27,11 @@
 .footer-items .item > div.img img {background-color: #303030;border-radius: 0px;padding: 10px;width: 43px;height: 40px;}
 .footer-items .item > a.img span {display: block;background-position: center;background-size: contain;background-repeat: no-repeat;width: 43px;height: 40px;transition: background-image;transition-duration: 0.5s;transition-timing-function: ease-in-out;}
 
+.footer-items .item:nth-child(1) {width: 35%;}
+.footer-items .item:nth-child(2) {width: 25%;}
+.footer-items .item:nth-child(3) {width: 22%;}
+.footer-items .item:nth-child(4) {width: 18%;top: -6px;}
+
 /* Social Icons Start */
 .footer-items .item > a.img span#social-in {background-image: url(../img/Linkedin_Button_Grey.png);}
 .footer-items .item > a.img span#social-fb {background-image: url(../img/Facebook_Button_Grey.png);}
@@ -52,3 +57,16 @@
 .main_foot_div .icons a.twitter:hover {border: 1px solid #02b0e8;color: #02b0e8;}
 
 .copyright {color: white; font-size: 10px; font-family: Nexa-Regular; float: right; margin: 0px 12px; }
+
+@media screen and (max-width: 1200px) {
+	.footer-items {padding-left: 15px;padding-right: 15px;padding-bottom: 10px;}
+
+	.footer-items .item {margin: 0 auto;float: none;}
+	.footer-items .item:nth-child(1) {width: 400px;}
+	.footer-items .item:nth-child(2) {width: 400px;}
+	.footer-items .item:nth-child(3) {width: 400px;}
+	.footer-items .item:nth-child(4) {width: 400px;top: 0;}
+	.footer-items .item > a {float: left;}
+	.copyright {float: left;}
+	.footer-bottom {height: 189px;}
+}

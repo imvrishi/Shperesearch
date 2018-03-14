@@ -236,7 +236,11 @@ function alignElements() {
 
     let screenWidth = $(window).width();
     let containerWidth = 1200;
-    let left = (containerWidth - screenWidth) / 2;
+    let left;
+    if ( containerWidth < screenWidth )
+        left = (containerWidth - screenWidth) / 2;
+    else
+        left = 0;
     $('.home-banner video').css('left', left).css('width', screenWidth);
 
     $('.customZoom').css('transform', 'scale(1.6)');

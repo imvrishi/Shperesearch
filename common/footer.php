@@ -1,7 +1,7 @@
 </section><!-- /#body-container -->
 <div class="footer fixed-footer hidden none home-hidden">
     <div class="footer-items">
-        <div class="item" style="width: 35%;">
+        <div class="item">
             <div class="img">
                 <img src="img/Visit_Us_Button.png">
             </div>
@@ -10,7 +10,7 @@
                 <div class="content">2 Greenway Garden, London NW3 7DJ</div>
             </div>
         </div>
-        <div class="item" style="width: 25%;">
+        <div class="item">
             <div class="img">
                 <img src="img/Email_Us_Button.png">
             </div>
@@ -19,7 +19,7 @@
                 <div class="content">hello@spheresearch.com</div>
             </div>
         </div>
-        <div class="item" style="width: 22%;">
+        <div class="item">
             <div class="img">
                 <img src="img/Call_Us_Button.png">
             </div>
@@ -28,7 +28,7 @@
                 <div class="content">+44 (0)20 3287 4448</div>
             </div>
         </div>
-        <div class="item" style="width: 18%;top: -6px;">
+        <div class="item">
             <a href="https://twitter.com/spheresearch" target="_blank" class="img external"><span id="social-tw"></span></a>
             <a href="#" class="img"><span id="social-gp"></span></a>
             <a href="#" class="img"><span id="social-fb"></span></a>
